@@ -19,12 +19,11 @@ Una volta effettuato l'accesso, ti trovi nella **Dashboard** - il tuo centro di 
 Nel menu laterale a sinistra trovi le sezioni principali che utilizzerai:
 
 **🎯 Sezioni Importanti per i Contenuti:**
-- **Prodotti** - Gestire i singoli prodotti
-- **Tipo di Prodotti** - Gestire le categorie di prodotti  
-- **Applicazioni** - Gestire le applicazioni/colture
-- **Media** - Gestire immagini e documenti
+- **[Prodotti](03-prodotti.md)** - Gestire i singoli prodotti
+- **[Tipo di Prodotti](02-tipi-prodotto.md)** - Gestire le categorie di prodotti
+- **[Applicazioni](04-applicazioni.md)** - Gestire le applicazioni/colture
 
-📷 *[Screenshot: Menu laterale con le voci evidenziate]*
+![Menu laterale con le voci evidenziate](assets/dashboard/Screen-Dash_menu-CTP.jpg)
 
 ## Interfaccia di Base
 
