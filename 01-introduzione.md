@@ -8,8 +8,6 @@ Per gestire i contenuti del sito, dovrai accedere all'area di amministrazione Wo
 2. Inserisci il tuo username e password
 3. Clicca su "Accedi"
 
-📷 *[Screenshot: Pagina di login WordPress]*
-
 ## La Dashboard Amministrativa
 
 Una volta effettuato l'accesso, ti trovi nella **Dashboard** - il tuo centro di controllo.
