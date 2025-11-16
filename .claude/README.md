@@ -62,6 +62,10 @@ Quando l'utente chiede qualcosa "passo passo":
 
 **Per Claude CLI**:
 - Nessuna limitazione sui branch
+- **Prima di iniziare a lavorare**:
+  1. Verifica che `main` sia aggiornato (`git fetch`, `git status`)
+  2. Controlla se esistono branch `claude/...` con modifiche più recenti di `main`
+  3. Se esistono, chiedi all'utente se vuole fare merge di quelle modifiche su `main` prima di procedere
 - Lavoro direttamente su `main` e pusho normalmente
 - GitBook si sincronizza immediatamente
 
