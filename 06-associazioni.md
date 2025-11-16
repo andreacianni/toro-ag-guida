@@ -166,31 +166,31 @@ Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenu
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- ❌ NON associabili ad Applicazioni
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
 **📑 Documenti Prodotto**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- ❌ NON associabili ad Applicazioni
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
 **🌾 Brochure Coltura**
-- ❌ NON associabili a Prodotti
-- ❌ NON associabili a Tipi
-- ❌ NON associabili a Pagine
+- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
+- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
+- <small style="color: #6c757d;">❌ NON associabili a Pagine</small>
 - ✅ Associabili solo ad **Applicazioni** (multi)
 
 **🎥 Video**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- ❌ NON associabili ad Applicazioni
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
 **🖼️ Documenti Plus**
-- ❌ NON associabili a Prodotti
-- ❌ NON associabili a Tipi
+- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
+- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
 - ✅ Associabili solo a **Pagine** (multi)
-- ❌ NON associabili ad Applicazioni
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
 </td>
 <td width="50%" valign="top">
@@ -201,29 +201,29 @@ Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenu
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
-- ❌ NON possono avere Brochure Coltura
-- ❌ NON possono avere Documenti Plus
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
 **🏷️ Tipi di Prodotto**
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
-- ❌ NON possono avere Brochure Coltura
-- ❌ NON possono avere Documenti Plus
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
 **🌱 Applicazioni**
-- ❌ NON possono avere Schede Prodotto
-- ❌ NON possono avere Documenti Prodotto
+- <small style="color: #6c757d;">❌ NON possono avere Schede Prodotto</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Prodotto</small>
 - ✅ Possono avere **Brochure Coltura** (multi)
-- ❌ NON possono avere Video
-- ❌ NON possono avere Documenti Plus
+- <small style="color: #6c757d;">❌ NON possono avere Video</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
 **📄 Pagine**
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Documenti Plus** (multi)
 - ✅ Possono avere **Video** (multi)
-- ❌ NON possono avere Brochure Coltura
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
 
 </td>
 </tr>
