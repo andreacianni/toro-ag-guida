@@ -6,6 +6,12 @@ Una delle parti più importanti della gestione del sito è creare i collegamenti
 
 ### Schema delle Relazioni
 
+Il sistema di associazioni può essere visto da **tre prospettive diverse**. Tutte sono valide e rappresentano lo stesso sistema di collegamenti, ma viste da angolazioni differenti.
+
+#### 🏷️ Prospettiva: dal Tipo di Prodotto
+
+**Quando usare questa vista**: Per organizzare il catalogo e gestire gruppi di prodotti simili.
+
 ```
 TIPO DI PRODOTTO (es. "Manichetta e Ala Gocciolante")
     ├── PRODOTTO A (es. "Aqua Traxx PBX")
@@ -18,12 +24,91 @@ TIPO DI PRODOTTO (es. "Manichetta e Ala Gocciolante")
         └── Applicazione: Colture Protette
 ```
 
+💡 **Cosa significa**: Un tipo di prodotto contiene più prodotti specifici, ognuno dei quali può essere usato in diverse applicazioni.
+
+---
+
+#### 🌱 Prospettiva: dall'Applicazione
+
+**Quando usare questa vista**: Per vedere quali prodotti sono disponibili per un settore specifico.
+
+```
+APPLICAZIONE (es. "Vigneto")
+    ├── PRODOTTO A (es. "Aqua Traxx PBX")
+    │   ├── Tipo: Manichetta e Ala Gocciolante
+    │   └── Documenti: Scheda tecnica
+    │
+    ├── PRODOTTO C (es. "Irritec Spray System")
+    │   ├── Tipo: Microirrigazione
+    │   └── Documenti: Brochure vigneto
+    │
+    └── PRODOTTO D (es. "Filter Pro V200")
+        ├── Tipo: Filtrazione
+        └── Documenti: Manuale tecnico
+```
+
+💡 **Cosa significa**: Un'applicazione mostra tutti i prodotti utilizzabili in quel settore, indipendentemente dal tipo a cui appartengono.
+
+---
+
+#### 📦 Prospettiva: dal Prodotto Singolo
+
+**Quando usare questa vista**: Per capire tutte le relazioni di un prodotto specifico.
+
+```
+PRODOTTO (es. "Aqua Traxx PBX")
+    │
+    ├── Tipo di Prodotto
+    │   └── Manichetta e Ala Gocciolante (1 solo tipo)
+    │
+    ├── Applicazioni
+    │   ├── Agrumeti
+    │   ├── Vigneto
+    │   └── Ortaggi (multiple applicazioni possibili)
+    │
+    └── Documenti e Contenuti
+        ├── Scheda Prodotto: "Aqua Traxx PBX Technical"
+        ├── Documento: "Guida installazione"
+        └── Video: "Demo irrigazione"
+```
+
+💡 **Cosa significa**: Un prodotto appartiene a UN tipo, può essere usato in MULTIPLE applicazioni, e può avere MULTIPLI documenti associati.
+
 ### Risultato sul Sito
 
-Quando crei questi collegamenti:
-- La pagina del **Tipo di Prodotto** mostrerà tutti i prodotti associati
-- La pagina dell'**Applicazione** mostrerà tutti i prodotti che la utilizzano
-- La pagina del **Prodotto** mostrerà tipo e applicazioni correlate
+Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine del sito:
+
+**Pagina Tipo di Prodotto** (es. `/prodotti/manichetta-e-ala-gocciolante/`)
+- Mostra tutti i prodotti di quel tipo
+- Lista le applicazioni coperte dai prodotti del tipo
+- Documenti comuni al tipo
+
+**Pagina Applicazione** (es. `/applicazioni/vigneto/`)
+- Mostra tutti i prodotti utilizzabili per quel settore
+- Raggruppa prodotti di tipi diversi
+- Brochure e documenti specifici per l'applicazione
+
+**Pagina Prodotto** (es. `/prodotti/aqua-traxx-pbx/`)
+- Mostra il tipo di appartenenza
+- Lista tutte le applicazioni possibili
+- Tutti i documenti, schede e video associati
+
+💡 **In pratica**: Ogni pagina mostra le stesse relazioni, ma da una prospettiva diversa, permettendo all'utente finale di navigare in modo intuitivo da qualsiasi punto di partenza.
+
+### Regole Chiave delle Relazioni
+
+| Elemento | Tipo di Prodotto | Applicazioni | Documenti |
+|----------|------------------|--------------|-----------|
+| **Prodotto** | 1️⃣ UNO solo (obbligatorio) | ♾️ MULTIPLE (opzionale) | ♾️ MULTIPLI (opzionale) |
+| **Tipo di Prodotto** | — | — | ♾️ MULTIPLI (opzionale) |
+| **Applicazione** | — | — | ♾️ MULTIPLI (opzionale) |
+
+**Cosa ricordare:**
+- ✅ Ogni prodotto deve avere ESATTAMENTE un tipo di prodotto
+- ✅ Un prodotto può avere zero, una o molte applicazioni
+- ✅ Documenti e video possono essere associati a prodotti, tipi o applicazioni
+- ❌ Un prodotto NON può avere più tipi contemporaneamente
+- ❌ Non esiste un limite al numero di applicazioni o documenti
 
 ---
 
