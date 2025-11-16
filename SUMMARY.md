@@ -26,6 +26,14 @@
   * [Prodotti e Applicazioni](05-associazioni.md#prodotti-applicazioni)
   * [Documenti e contenuti](05-associazioni.md#documenti-contenuti)
 
+## Contenuti Multilingua
+* [Gestione Documenti e Contenuti Multilingua](07-documenti-multilingua.md)
+  * [Sistema Multilingua](07-documenti-multilingua.md#come-funziona-il-sistema-multilingua)
+  * [Schede Prodotto](07-documenti-multilingua.md#gestire-le-schede-prodotto)
+  * [Documenti Prodotto](07-documenti-multilingua.md#gestire-i-documenti-prodotto)
+  * [Video](07-documenti-multilingua.md#gestire-i-video)
+  * [Brochure Colture](07-documenti-multilingua.md#gestire-le-brochure-colture)
+
 ## Aiuto e Risoluzione Problemi
 * [Domande Frequenti](06-faq.md)
 * [Problemi Comuni](06-faq.md#problemi-comuni)

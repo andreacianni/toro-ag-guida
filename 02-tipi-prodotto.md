@@ -13,12 +13,46 @@ I **Tipi di Prodotto** sono le categorie principali che raggruppano i tuoi prodo
 
 ---
 
+## Come i Campi Custom Appaiono sul Sito
+
+Ogni campo che compili nell'amministrazione ha una corrispondenza precisa nel frontend. Ecco la mappa completa:
+
+### Nome e Descrizione → Titolo e Contenuto Pagina
+
+![Nome prodotto backend vs frontend](assets/tipi-prodotto/tipi-prodotto-01.jpg)
+
+Il **Nome** del tipo diventa il **titolo principale** della pagina, mentre la **Descrizione** diventa il testo introduttivo.
+
+### Thumbnail → Griglia Tipi di Prodotto
+
+![Thumbnail backend vs frontend](assets/tipi-prodotto/tipi-prodotto-03-thumb.jpg)
+
+La **Thumbnail** (miniatura) appare nella griglia della pagina `/prodotti/` quando si visualizzano tutti i tipi di prodotto.
+
+### Immagine Hero → Header Pagina Tipo
+
+![Immagine Hero backend vs frontend](assets/tipi-prodotto/tipi-prodotto-02-hero.jpg)
+
+L'**Immagine Hero** diventa l'immagine grande in cima alla pagina del singolo tipo di prodotto.
+
+### Schede e Documenti → Sezioni Download
+
+![Schede e Documenti backend vs frontend](assets/tipi-prodotto/tipi-prodotto-04-schede-documenti.jpg)
+
+Le **Schede Prodotto** e i **Documenti** associati appaiono come link scaricabili organizzati in sezioni dedicate nella pagina del tipo.
+
+### Video → Player Video nella Pagina
+
+![Video backend vs frontend](assets/tipi-prodotto/tipi-prodotto-05-video.jpg)
+
+I **Video** associati vengono mostrati con un player integrato (YouTube) nella pagina del tipo di prodotto.
+
+---
+
 ## Visualizzare Tipi Esistenti
 
 1. Nel menu laterale, vai su **Prodotti** → **Tipo di Prodotti**
 2. Vedrai la lista di tutti i tipi esistenti
-
-📷 *[Screenshot: Lista tipi di prodotto nell'admin]*
 
 Ogni tipo mostra:
 - **Nome** (es. "Diserbanti")
@@ -35,11 +69,7 @@ Ogni tipo mostra:
 1. Vai su **Prodotti** → **Tipo di Prodotti**
 2. Clicca su **"Aggiungi nuovo Tipo di Prodotti"** in alto
 
-📷 *[Screenshot: Pulsante "Aggiungi nuovo"]*
-
 ### Passo 2: Compilare le Informazioni Base
-
-📷 *[Screenshot: Form di creazione con campi evidenziati]*
 
 **Campi obbligatori:**
 - **Nome**: Il nome che apparirà sul sito (es. "Fertilizzanti")
@@ -51,18 +81,14 @@ Ogni tipo mostra:
 ### Passo 3: Aggiungere Immagini
 
 **Thumbnail (Miniatura)**
-- Usata nelle pagine di archivio
+- Usata nelle pagine di archivio (vedi screenshot sopra)
 - Dimensione consigliata: 400x300 pixel
 - Clicca **"Aggiungi file"** nel campo "Thumbnails del tipo di prodotto"
 
-📷 *[Screenshot: Campo thumbnail evidenziato]*
-
 **Immagine Hero**
-- Usata nella pagina del singolo tipo di prodotto
+- Usata nella pagina del singolo tipo di prodotto (vedi screenshot sopra)
 - Dimensione consigliata: 1200x400 pixel
 - Clicca **"Aggiungi file"** nel campo "Immagine Hero del tipo di prodotto"
-
-📷 *[Screenshot: Campo immagine hero evidenziato]*
 
 ### Passo 4: Salvare
 
@@ -80,8 +106,6 @@ Ogni tipo mostra:
 1. Vai su **Prodotti** → **Tipo di Prodotti**
 2. Cerca il tipo nella lista
 3. Clicca su **"Modifica"** sotto il nome
-
-📷 *[Screenshot: Lista con link "Modifica" evidenziato]*
 
 ### Modificare le Informazioni
 
@@ -105,17 +129,15 @@ Puoi cambiare:
 
 ### Video (Opzionale)
 
-Se hai video per questo tipo di prodotto:
+Se hai video per questo tipo di prodotto (vedi screenshot "Video" sopra):
 
 1. Vai al campo **"Video"**
 2. Clicca **"Aggiungi nuovo"** se non esistono video
 3. Seleziona video esistenti dalla lista
 
-📷 *[Screenshot: Campo video con lista di selezione]*
-
 ### Schede Prodotto
 
-Per associare schede tecniche:
+Per associare schede tecniche (vedi screenshot "Schede e Documenti" sopra):
 
 1. Campo **"Scheda Prodotto tipo"**
 2. Seleziona dalle schede esistenti
@@ -127,7 +149,7 @@ Per associare schede tecniche:
 2. Seleziona documenti dalla lista
 3. Puoi aggiungere più documenti
 
-💡 **Suggerimento**: Se il documento che ti serve non esiste, devi prima crearlo nella sezione appropriata.
+💡 **Suggerimento**: Se il documento che ti serve non esiste, devi prima crearlo nella sezione appropriata. Vedi il capitolo [Gestione Documenti Multilingua](07-documenti-multilingua.md).
 
 ---
 

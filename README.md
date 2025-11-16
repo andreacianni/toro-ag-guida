@@ -13,6 +13,7 @@ Questa guida ti aiuterà a gestire facilmente i contenuti del sito TORO-AG senza
 - Come gestire i Prodotti e le loro informazioni
 - Come creare e aggiornare le Applicazioni
 - Come collegare tutti gli elementi tra loro
+- Come gestire documenti, schede tecniche e video multilingua
 
 **Prima di iniziare:**
 - Avrai bisogno delle credenziali di accesso all'amministrazione WordPress
