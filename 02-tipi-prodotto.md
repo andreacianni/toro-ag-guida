@@ -60,7 +60,7 @@ Usa l'editor **"Descrizione"** con formattazione Rich Text.
 
 **Nel frontend:**
 
-![Thumbnail nella griglia](assets/tipi-prodotto/tipi-prodotto-01-thumb-front.jpg)
+![Thumbnail nelle griglie, es. nella pagina Prodotti](assets/tipi-prodotto/tipi-prodotto-01-thumb-front.jpg)
 
 **Nel backend:**
 
