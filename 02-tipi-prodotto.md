@@ -10,7 +10,9 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 
 **Nell'amministrazione:**
 
-_[Screenshot della voce "Tipo di Prodotti" nella barra laterale]_
+Per accedere alla tassonomia, clicca su **"Tipo di Prodotti"** nella barra laterale. Per modificare un termine esistente, clicca su **"Modifica"** sotto il nome del termine nella lista.
+
+![Accesso alla tassonomia Tipo di Prodotti](assets/tipi-prodotto/tipi-prodotto-00-admin.jpg)
 
 ---
 
