@@ -2,6 +2,20 @@
 
 I **Prodotti** sono i singoli elementi del tuo catalogo (es. "Aqua-Traxx® FlowControl™", "Tempus® Air Programmatori"). Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a una o più Applicazioni (colture).
 
+## In questa pagina
+
+- [Titolo](#titolo)
+- [Descrizione](#descrizione)
+- [Immagine in Evidenza](#immagine-in-evidenza)
+- [Tipo di Prodotto](#tipo-di-prodotto)
+- [Applicazioni](#applicazioni)
+- [Galleria Prodotto](#galleria-prodotto)
+- [Schede Prodotto](#schede-prodotto)
+- [Documenti Prodotto](#documenti-prodotto)
+- [Video Prodotto](#video-prodotto)
+
+---
+
 ## Dove si Vedono i Prodotti
 
 **Sul sito pubblico:**
@@ -16,7 +30,13 @@ Clicca su **"Prodotti"** nella barra laterale per visualizzare l'elenco di tutti
 
 ![Elenco prodotti](assets/prodotti/prodotti-00-admin-1.jpg)
 
-**Passo 2: Modificare un prodotto**
+**Passo 2: Cercare un prodotto**
+
+Usa il campo di ricerca in alto a destra per trovare rapidamente un prodotto specifico.
+
+![Ricerca prodotto](assets/prodotti/prodotti-00-admin-1.jpg)
+
+**Passo 3: Modificare un prodotto**
 
 Clicca su **"Modifica"** sotto il nome del prodotto che vuoi modificare.
 
@@ -165,46 +185,6 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 Seleziona i video dimostrativi dal campo **"Video Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare i video esistenti.
 
 💡 Per gestire i video, vedi [Allegati Multilingua](05-allegati-multilingua.md).
-
----
-
-## Aggiungere un Nuovo Prodotto
-
-1. Vai su **Prodotti** → **Aggiungi nuovo**
-2. Compila tutti i campi descritti sopra
-3. Assicurati di selezionare almeno:
-   - Un **Tipo di Prodotto**
-   - Almeno un'**Applicazione**
-   - L'**Immagine in evidenza**
-4. Clicca **"Pubblica"**
-
-✅ Il prodotto sarà visibile nella pagina del tipo di prodotto corrispondente.
-
----
-
-## Modificare un Prodotto Esistente
-
-1. Vai su **Prodotti**
-2. Trova il prodotto nella lista (puoi usare i filtri per tipo o applicazione)
-3. Clicca **"Modifica"** sotto il titolo
-4. Modifica i campi necessari
-5. Clicca **"Aggiorna"**
-
----
-
-## Problemi Comuni
-
-**Il prodotto non appare nel tipo di prodotto**
-- Verifica che il "Tipo di Prodotto" sia selezionato
-- Controlla che il prodotto sia "Pubblicato"
-
-**Le immagini non si caricano**
-- Verifica dimensioni (non oltre 2MB)
-- Prova formati diversi (JPG/PNG)
-
-**I documenti/schede/video non si collegano**
-- Devono esistere già nel sistema come Allegati Multilingua
-- Verifica nella sezione appropriata prima di associarli
 
 ---
 
