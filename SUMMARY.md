@@ -7,9 +7,6 @@
 
 ## Gestione Contenuti
 * [Tipi di Prodotto](02-tipi-prodotto.md)
-  * [Creare un nuovo Tipo](02-tipi-prodotto.md#creare-nuovo-tipo)
-  * [Modificare un Tipo esistente](02-tipi-prodotto.md#modificare-tipo-esistente)
-  * [Associare immagini e documenti](02-tipi-prodotto.md#immagini-documenti)
 * [Prodotti](03-prodotti.md)
   * [Aggiungere un nuovo Prodotto](03-prodotti.md#nuovo-prodotto)
   * [Modificare un Prodotto](03-prodotti.md#modificare-prodotto)
