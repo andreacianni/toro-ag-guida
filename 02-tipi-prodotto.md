@@ -1,6 +1,6 @@
 # Gestire i Tipi di Prodotto
 
-I **Tipi di Prodotto** sono le categorie principali che raggruppano i tuoi prodotti (es. "Diserbanti", "Fungicidi", "Manichetta e Ala Gocciolante").
+I **Tipi di Prodotto** sono le categorie principali che raggruppano i tuoi prodotti (es. "Manichetta e Ala Gocciolante", "Tempus® Air Programmatori", "Gocciolatori").
 
 ## Dove si Vedono i Tipi di Prodotto
 
@@ -55,8 +55,8 @@ I **Video** associati vengono mostrati con un player integrato (YouTube) nella p
 2. Vedrai la lista di tutti i tipi esistenti
 
 Ogni tipo mostra:
-- **Nome** (es. "Diserbanti")
-- **Slug** (URL-friendly, es. "diserbanti")
+- **Nome** (es. "Manichetta e Ala Gocciolante")
+- **Slug** (URL-friendly, es. "manichetta-e-ala-gocciolante")
 - **Descrizione**
 - **Numero prodotti** associati
 
@@ -72,11 +72,11 @@ Ogni tipo mostra:
 ### Passo 2: Compilare le Informazioni Base
 
 **Campi obbligatori:**
-- **Nome**: Il nome che apparirà sul sito (es. "Fertilizzanti")
+- **Nome**: Il nome che apparirà sul sito (es. "Tempus® Air Programmatori")
 - **Slug**: Si genera automaticamente, ma puoi modificarlo
 - **Descrizione**: Spiegazione che apparirà nella pagina del tipo
 
-💡 **Suggerimento Slug**: Usa solo lettere minuscole, numeri e trattini. Es: "fertilizzanti-liquidi"
+💡 **Suggerimento Slug**: Usa solo lettere minuscole, numeri e trattini. Es: "tempus-air-programmatori"
 
 ### Passo 3: Aggiungere Immagini
 

@@ -202,9 +202,9 @@ Le brochure appariranno nella pagina dell'applicazione, organizzate per lingua.
 Se hai lo stesso documento in più versioni linguistiche:
 
 1. **Crea documenti separati** per ogni lingua
-   - "Scheda Tecnica Prodotto X" (lingua: italiano)
-   - "Product X Datasheet" (lingua: inglese)
-   - "Ficha Técnica Producto X" (lingua: spagnolo)
+   - "Tempus® Air Scheda prodotto" (lingua: italiano)
+   - "Tempus® Air Product sell sheet" (lingua: inglese)
+   - "Tempus® Air Fiche de vente produit" (lingua: francese)
 
 2. **Associali allo stesso prodotto/tipo**
    - Il sistema mostrerà automaticamente solo quelli pertinenti

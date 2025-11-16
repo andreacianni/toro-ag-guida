@@ -1,6 +1,6 @@
 # Gestire i Prodotti
 
-I **Prodotti** sono i singoli elementi del tuo catalogo (es. "Aqua Traxx PBX", "Roundup Max").
+I **Prodotti** sono i singoli elementi del tuo catalogo (es. "Aqua Traxx PBX", "Tempus® Air Programmatori").
 
 ## Dove si Vedono i Prodotti
 
@@ -66,7 +66,7 @@ La lista mostra:
 
 **Tipo di Prodotto** (Obbligatorio)
 - Nella colonna destra, seleziona la categoria corretta
-- Es: "Diserbanti", "Fungicidi", ecc.
+- Es: "Manichetta e Ala Gocciolante", "Tempus® Air Programmatori", "Gocciolatori"
 
 📷 *[Screenshot: Box "Tipo di Prodotto" con selezione]*
 
