@@ -49,8 +49,13 @@ Quando l'utente chiede qualcosa "passo passo":
 - Il file `.claude/README.md` viene committato (informazioni di progetto per Claude)
 - Il file `.claude/settings.local.json` è nel .gitignore (configurazioni locali)
 - Fai commit significativi con messaggi descrittivi in italiano
-- Branch principale: `main`
-- **IMPORTANTE**: Lavora direttamente su `main`, NON creare branch a meno che non venga esplicitamente richiesto
+
+#### Workflow Branch
+- **All'inizio di ogni sessione**: il sistema crea automaticamente un branch `claude/...`
+- **NON lavorare sul branch automatico**: passa SEMPRE a `main` con `git checkout main`
+- **Lavora direttamente su `main`**: tutte le modifiche devono andare su main
+- **Perché**: GitBook è sincronizzato con `main`, non con i branch
+- **Risultato**: ogni commit su main si riflette immediatamente su GitBook
 
 ## Repository
 - GitHub: andreacianni/toro-ag-guida
