@@ -19,21 +19,19 @@
   * [Creare una nuova Applicazione](04-applicazioni.md#nuova-applicazione)
   * [Modificare Applicazioni esistenti](04-applicazioni.md#modificare-applicazione)
   * [Aggiungere descrizioni e brochure](04-applicazioni.md#descrizioni-brochure)
+* [Allegati Multilingua](05-allegati-multilingua.md)
+  * [Schede Prodotto](05-allegati-multilingua.md#schede-prodotto)
+  * [Documenti Prodotti](05-allegati-multilingua.md#documenti-prodotti)
+  * [Brochure](05-allegati-multilingua.md#brochure-applicazioni)
+  * [Documenti Plus](05-allegati-multilingua.md#documenti-plus)
+  * [Video](05-allegati-multilingua.md#video)
 
 ## Collegamenti e Relazioni
-* [Come collegare gli elementi](05-associazioni.md)
-  * [Prodotti e Tipi di Prodotto](05-associazioni.md#prodotti-tipi)
-  * [Prodotti e Applicazioni](05-associazioni.md#prodotti-applicazioni)
-  * [Documenti e contenuti](05-associazioni.md#documenti-contenuti)
-
-## Contenuti Multilingua
-* [Gestione Documenti e Contenuti Multilingua](07-documenti-multilingua.md)
-  * [Sistema Multilingua](07-documenti-multilingua.md#come-funziona-il-sistema-multilingua)
-  * [Schede Prodotto](07-documenti-multilingua.md#gestire-le-schede-prodotto)
-  * [Documenti Prodotto](07-documenti-multilingua.md#gestire-i-documenti-prodotto)
-  * [Video](07-documenti-multilingua.md#gestire-i-video)
-  * [Brochure Colture](07-documenti-multilingua.md#gestire-le-brochure-colture)
+* [Come collegare gli elementi](06-associazioni.md)
+  * [Prodotti e Tipi di Prodotto](06-associazioni.md#prodotti-tipi)
+  * [Prodotti e Applicazioni](06-associazioni.md#prodotti-applicazioni)
+  * [Documenti e contenuti](06-associazioni.md#documenti-contenuti)
 
 ## Aiuto e Risoluzione Problemi
-* [Domande Frequenti](06-faq.md)
-* [Problemi Comuni](06-faq.md#problemi-comuni)
+* [Domande Frequenti](07-faq.md)
+* [Problemi Comuni](07-faq.md#problemi-comuni)

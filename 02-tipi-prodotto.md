@@ -149,7 +149,7 @@ Per associare schede tecniche (vedi screenshot "Schede e Documenti" sopra):
 2. Seleziona documenti dalla lista
 3. Puoi aggiungere più documenti
 
-💡 **Suggerimento**: Se il documento che ti serve non esiste, devi prima crearlo nella sezione appropriata. Vedi il capitolo [Gestione Documenti Multilingua](07-documenti-multilingua.md).
+💡 **Suggerimento**: Se il documento che ti serve non esiste, devi prima crearlo nella sezione appropriata. Vedi il capitolo [Allegati Multilingua](05-allegati-multilingua.md).
 
 ---
 

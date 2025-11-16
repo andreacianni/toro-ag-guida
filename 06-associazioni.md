@@ -310,4 +310,4 @@ Quando aggiungi un prodotto completamente nuovo:
 
 ---
 
-**Prossimo**: [Domande Frequenti →](06-faq.md)
+**Prossimo**: [Domande Frequenti →](07-faq.md)

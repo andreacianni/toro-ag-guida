@@ -253,4 +253,4 @@ Per vedere quali prodotti sono associati:
 
 ---
 
-**Prossimo**: [Collegamenti e Associazioni →](05-associazioni.md)
+**Prossimo**: [Allegati Multilingua →](05-allegati-multilingua.md)
