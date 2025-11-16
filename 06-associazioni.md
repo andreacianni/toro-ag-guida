@@ -108,45 +108,25 @@ Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine d
 
 ## Collegare Prodotti e Tipi di Prodotto {#prodotti-tipi}
 
-<table>
-<tr>
-<td width="60%">
-
 I **Tipi di Prodotto** sono una tassonomia WordPress. Ogni prodotto deve essere associato a un tipo.
 
 Nell'editor del prodotto, trovi il box **"Tipo di Prodotto"** nella colonna destra. Seleziona UNA categoria (obbligatoria).
 
-⚠️ **Importante**: Senza un tipo di prodotto associato, il prodotto non apparirà correttamente sul sito.
-
-</td>
-<td width="40%">
+{% hint style="warning" %}
+**Importante**: Senza un tipo di prodotto associato, il prodotto non apparirà correttamente sul sito.
+{% endhint %}
 
 ![Box Tipo di Prodotto](assets/prodotti/Sidebar-01-Prodotti.jpg)
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## Collegare Prodotti e Applicazioni {#prodotti-applicazioni}
 
-<table>
-<tr>
-<td width="60%">
-
 Le **Applicazioni** sono una tassonomia WordPress. Un prodotto può essere associato a più applicazioni.
 
 Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. Seleziona una o più applicazioni (opzionale, ma consigliato).
 
-</td>
-<td width="40%">
-
 ![Box Applicazioni](assets/prodotti/Sidebar-00-Applicazioni.jpg)
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -156,44 +136,39 @@ Per la creazione e gestione dei documenti, consulta la pagina [Allegati Multilin
 
 Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenuti.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### Schema Relazioni Documenti → Contenuti
 
 **📄 Schede Prodotto**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
+- *❌ NON associabili ad Applicazioni*
 
 **📑 Documenti Prodotto**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
+- *❌ NON associabili ad Applicazioni*
 
 **🌾 Brochure Coltura**
-- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
-- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
-- <small style="color: #6c757d;">❌ NON associabili a Pagine</small>
+- *❌ NON associabili a Prodotti*
+- *❌ NON associabili a Tipi*
+- *❌ NON associabili a Pagine*
 - ✅ Associabili solo ad **Applicazioni** (multi)
 
 **🎥 Video**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
 - ✅ Associabili a **Pagine** (multi)
-- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
+- *❌ NON associabili ad Applicazioni*
 
 **🖼️ Documenti Plus**
-- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
-- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
+- *❌ NON associabili a Prodotti*
+- *❌ NON associabili a Tipi*
 - ✅ Associabili solo a **Pagine** (multi)
-- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
+- *❌ NON associabili ad Applicazioni*
 
-</td>
-<td width="50%" valign="top">
+---
 
 ### Schema Relazioni Contenuti → Documenti
 
@@ -201,33 +176,29 @@ Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenu
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
-- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
-- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
+- *❌ NON possono avere Brochure Coltura*
+- *❌ NON possono avere Documenti Plus*
 
 **🏷️ Tipi di Prodotto**
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
-- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
-- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
+- *❌ NON possono avere Brochure Coltura*
+- *❌ NON possono avere Documenti Plus*
 
 **🌱 Applicazioni**
-- <small style="color: #6c757d;">❌ NON possono avere Schede Prodotto</small>
-- <small style="color: #6c757d;">❌ NON possono avere Documenti Prodotto</small>
+- *❌ NON possono avere Schede Prodotto*
+- *❌ NON possono avere Documenti Prodotto*
 - ✅ Possono avere **Brochure Coltura** (multi)
-- <small style="color: #6c757d;">❌ NON possono avere Video</small>
-- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
+- *❌ NON possono avere Video*
+- *❌ NON possono avere Documenti Plus*
 
 **📄 Pagine**
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Documenti Plus** (multi)
 - ✅ Possono avere **Video** (multi)
-- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
-
-</td>
-</tr>
-</table>
+- *❌ NON possono avere Brochure Coltura*
 
 💡 **Regola chiave**: Tutte le associazioni sono **molti-a-molti** (multi). Un documento può essere associato a più elementi e viceversa.
 
