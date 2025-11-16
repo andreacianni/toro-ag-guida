@@ -72,17 +72,17 @@ PRODOTTO (es. "Aqua Traxx PBX")
 
 Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine del sito:
 
-**Pagina Tipo di Prodotto** (es. `/prodotti/manichetta-e-ala-gocciolante/`)
+**Pagina Tipo di Prodotto** (es. <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/" target="_blank">manichetta-e-ala-gocciolante</a>)
 - Mostra tutti i prodotti di quel tipo
 - Lista le applicazioni coperte dai prodotti del tipo
 - Documenti comuni al tipo
 
-**Pagina Applicazione** (es. `/applicazioni/vigneto/`)
+**Pagina Applicazione** (es. <a href="https://www.toro-ag.it/applicazioni/irrigazione-agrumeti/" target="_blank">irrigazione-agrumeti</a>)
 - Mostra tutti i prodotti utilizzabili per quel settore
 - Raggruppa prodotti di tipi diversi
 - Brochure e documenti specifici per l'applicazione
 
-**Pagina Prodotto** (es. `/prodotti/aqua-traxx-pbx/`)
+**Pagina Prodotto** (es. <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-flowcontrol/" target="_blank">aqua-traxx-flowcontrol</a>)
 - Mostra il tipo di appartenenza
 - Lista tutte le applicazioni possibili
 - Tutti i documenti, schede e video associati
