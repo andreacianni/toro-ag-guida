@@ -12,8 +12,6 @@ Per gestire i contenuti del sito, dovrai accedere all'area di amministrazione Wo
 
 Una volta effettuato l'accesso, ti trovi nella **Dashboard** - il tuo centro di controllo.
 
-📷 *[Screenshot: Dashboard WordPress con menu laterale evidenziato]*
-
 ### Menu Principale
 
 Nel menu laterale a sinistra trovi le sezioni principali che utilizzerai:
