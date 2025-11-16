@@ -7,15 +7,15 @@ Una delle parti più importanti della gestione del sito è creare i collegamenti
 ### Schema delle Relazioni
 
 ```
-TIPO DI PRODOTTO (es. "Diserbanti")
-    ├── PRODOTTO A (es. "Roundup Max")
-    │   ├── Applicazione: Cereali
-    │   ├── Applicazione: Mais  
+TIPO DI PRODOTTO (es. "Manichetta e Ala Gocciolante")
+    ├── PRODOTTO A (es. "Aqua Traxx PBX")
+    │   ├── Applicazione: Agrumeti
+    │   ├── Applicazione: Vigneto
     │   └── Documenti: Scheda tecnica
     │
-    └── PRODOTTO B (es. "Glifosate Pro")
-        ├── Applicazione: Vite
-        └── Applicazione: Frutteto
+    └── PRODOTTO B (es. "Aqua Traxx FC")
+        ├── Applicazione: Ortaggi
+        └── Applicazione: Colture Protette
 ```
 
 ### Risultato sul Sito
@@ -53,7 +53,7 @@ Ogni prodotto DEVE essere associato a un tipo:
 - La colonna "Conteggio" mostra quanti prodotti sono associati
 
 **Sul sito:**
-- Vai alla pagina del tipo (es. `/prodotti/diserbanti/`)
+- Vai alla pagina del tipo (es. `/prodotti/manichetta-e-ala-gocciolante/`)
 - Dovresti vedere tutti i prodotti associati
 
 ---
@@ -74,9 +74,9 @@ Un prodotto può essere usato per più applicazioni:
 ### Scegliere le Applicazioni Giuste
 
 **Esempi pratici:**
-- **Diserbante generico** → Cereali, Mais, Vite, Frutteto
-- **Prodotto specializzato** → Solo Vite
-- **Irrigazione drip** → Ortaggi, Serre, Agrumeti
+- **Manichetta irrigazione** → Agrumeti, Vigneto, Ortaggi, Frutteti
+- **Prodotto specializzato** → Solo Vigneto
+- **Sistema irrigazione** → Ortaggi, Colture Protette, Agrumeti
 
 💡 **Suggerimento**: Seleziona solo le applicazioni realmente pertinenti. Troppi collegamenti rendono confusa la navigazione.
 
@@ -90,7 +90,7 @@ Un prodotto può essere usato per più applicazioni:
 - Il conteggio mostra quanti prodotti sono associati
 
 **Sul sito:**
-- Pagina applicazione: `/applicazioni/cereali/` → mostra prodotti per cereali
+- Pagina applicazione: `/applicazioni/agrumeti/` → mostra prodotti per agrumeti
 - Pagina prodotto: mostra le applicazioni in cui è usato
 
 ---
@@ -188,20 +188,20 @@ Quando aggiungi un prodotto completamente nuovo:
 
 ### Esempio Pratico
 
-**Nuovo prodotto: "Fertilizzante Bio Plus"**
+**Nuovo prodotto: "Aqua Traxx Elite"**
 
-1. **Tipo**: Già esiste "Fertilizzanti" ✅
-2. **Applicazioni**: Servono "Ortaggi" e "Biologico"
+1. **Tipo**: Già esiste "Manichetta e Ala Gocciolante" ✅
+2. **Applicazioni**: Servono "Ortaggi" e "Vigneto"
    - "Ortaggi" esiste ✅
-   - "Biologico" non esiste → lo creo
-3. **Prodotto**: Creo "Fertilizzante Bio Plus"
-   - Associo a "Fertilizzanti"
-   - Associo a "Ortaggi" e "Biologico"
+   - "Vigneto" esiste ✅
+3. **Prodotto**: Creo "Aqua Traxx Elite"
+   - Associo a "Manichetta e Ala Gocciolante"
+   - Associo a "Ortaggi" e "Vigneto"
 4. **Documenti**: Associo scheda tecnica esistente
 5. **Test**: Controllo che appaia in:
-   - `/prodotti/fertilizzanti/`
+   - `/prodotti/manichetta-e-ala-gocciolante/`
    - `/applicazioni/ortaggi/`
-   - `/applicazioni/biologico/`
+   - `/applicazioni/vigneto/`
 
 ---
 

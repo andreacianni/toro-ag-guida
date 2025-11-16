@@ -1,6 +1,6 @@
 # Gestire le Applicazioni
 
-Le **Applicazioni** (chiamate anche Colture) rappresentano gli ambiti di utilizzo dei tuoi prodotti (es. "Irrigazione Agrumeti", "Cereali Autunno-Vernini", "Vite").
+Le **Applicazioni** (chiamate anche Colture) rappresentano gli ambiti di utilizzo dei tuoi prodotti (es. "Agrumeti", "Vigneto", "Mais", "Colture Protette").
 
 ## Dove si Vedono le Applicazioni
 
@@ -21,8 +21,8 @@ Le **Applicazioni** (chiamate anche Colture) rappresentano gli ambiti di utilizz
 📷 *[Screenshot: Lista applicazioni nell'admin]*
 
 Ogni applicazione mostra:
-- **Nome** (es. "Irrigazione Agrumeti")
-- **Slug** (URL, es. "irrigazione-agrumeti")
+- **Nome** (es. "Agrumeti")
+- **Slug** (URL, es. "agrumeti")
 - **Descrizione** breve
 - **Numero prodotti** associati
 
@@ -46,7 +46,7 @@ Ogni applicazione mostra:
 **Campi principali:**
 
 **Nome**
-- Nome dell'applicazione (es. "Irrigazione Serre")
+- Nome dell'applicazione (es. "Colture Protette")
 - Apparirà come titolo nelle pagine
 
 **Slug**
@@ -182,18 +182,18 @@ Per organizzare meglio le applicazioni:
 
 **Esempio di gerarchia:**
 ```
-Irrigazione (principale)
-├── Irrigazione Agrumeti
-├── Irrigazione Serre
-└── Irrigazione Vigneti
+Frutteti (principale)
+├── Agrumeti
+├── Noccioleto
+└── Oliveto
 
-Cereali (principale)
-├── Cereali Autunno-Vernini
-└── Cereali Primaverili
+Ortaggi (principale)
+├── Cipolla
+└── Fragola
 ```
 
 **Come creare:**
-1. Crea prima l'applicazione principale (es. "Irrigazione")
+1. Crea prima l'applicazione principale (es. "Frutteti")
 2. Crea le sotto-applicazioni
 3. Nel campo "Applicazione Padre" seleziona quella principale
 

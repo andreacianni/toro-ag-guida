@@ -72,7 +72,7 @@ La lista mostra:
 
 **Applicazioni (Colture)**
 - Seleziona una o più applicazioni appropriate
-- Es: "Mais", "Vite", "Cereali autunno-vernini"
+- Es: "Agrumeti", "Vigneto", "Mais", "Ortaggi"
 - Puoi selezionarne più di una
 
 📷 *[Screenshot: Box "Applicazioni" con checkbox multipli]*
