@@ -1,6 +1,6 @@
 # Collegamenti e Associazioni
 
-Una delle parti più importanti della gestione del sito è creare i collegamenti giusti tra **Prodotti**, **Tipi di Prodotto** e **Applicazioni**. Questi collegamenti determinano come i contenuti appaiono e si relazionano sul sito.
+I collegamenti tra **Prodotti**, **Tipi di Prodotto** e **Applicazioni** determinano come i contenuti appaiono e si relazionano sul sito.
 
 ## Come Funzionano i Collegamenti
 
@@ -9,8 +9,6 @@ Una delle parti più importanti della gestione del sito è creare i collegamenti
 Il sistema di associazioni può essere visto da **tre prospettive diverse**. Tutte sono valide e rappresentano lo stesso sistema di collegamenti, ma viste da angolazioni differenti.
 
 #### 🏷️ Prospettiva: dal Tipo di Prodotto
-
-**Quando usare questa vista**: Per organizzare il catalogo e gestire gruppi di prodotti simili.
 
 ```
 TIPO DI PRODOTTO (es. "Manichetta e Ala Gocciolante")
@@ -29,8 +27,6 @@ TIPO DI PRODOTTO (es. "Manichetta e Ala Gocciolante")
 ---
 
 #### 🌱 Prospettiva: dall'Applicazione
-
-**Quando usare questa vista**: Per vedere quali prodotti sono disponibili per un settore specifico.
 
 ```
 APPLICAZIONE (es. "Vigneto")
@@ -52,8 +48,6 @@ APPLICAZIONE (es. "Vigneto")
 ---
 
 #### 📦 Prospettiva: dal Prodotto Singolo
-
-**Quando usare questa vista**: Per capire tutte le relazioni di un prodotto specifico.
 
 ```
 PRODOTTO (es. "Aqua Traxx PBX")
