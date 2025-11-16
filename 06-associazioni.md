@@ -108,69 +108,23 @@ Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine d
 
 ## Collegare Prodotti e Tipi di Prodotto {#prodotti-tipi}
 
-### Associazione Base (Obbligatoria)
+I **Tipi di Prodotto** sono una tassonomia WordPress. Ogni prodotto deve essere associato a un tipo.
 
-Ogni prodotto DEVE essere associato a un tipo:
-
-1. **Modifica il prodotto** (Prodotti → Modifica)
-2. Trova la sezione **"Tipo di Prodotto"** nella colonna destra
-3. **Seleziona UNA categoria** (non puoi selezionarne più di una)
-4. Clicca **"Aggiorna"**
+Nell'editor del prodotto, trovi il box **"Tipo di Prodotto"** nella colonna destra. Seleziona UNA categoria (obbligatoria).
 
 📷 *[Screenshot: Box tipo di prodotto nell'editor prodotto]*
 
-⚠️ **Importante**: Se non selezioni un tipo di prodotto, il prodotto non apparirà correttamente sul sito.
-
-### Verificare l'Associazione
-
-**Dal prodotto:**
-- Guarda la colonna destra nell'editor del prodotto
-- Il tipo selezionato dovrebbe essere evidenziato
-
-**Dal tipo di prodotto:**
-- Vai a **Prodotti** → **Tipo di Prodotti**
-- La colonna "Conteggio" mostra quanti prodotti sono associati
-
-**Sul sito:**
-- Vai alla pagina del tipo (es. `/prodotti/manichetta-e-ala-gocciolante/`)
-- Dovresti vedere tutti i prodotti associati
+⚠️ **Importante**: Senza un tipo di prodotto associato, il prodotto non apparirà correttamente sul sito.
 
 ---
 
 ## Collegare Prodotti e Applicazioni {#prodotti-applicazioni}
 
-### Associazione Multiple
+Le **Applicazioni** sono una tassonomia WordPress. Un prodotto può essere associato a più applicazioni.
 
-Un prodotto può essere usato per più applicazioni:
+Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. Seleziona una o più applicazioni (opzionale, ma consigliato).
 
-1. **Modifica il prodotto**
-2. Trova la sezione **"Applicazioni"** nella colonna destra
-3. **Seleziona una o più applicazioni** (checkbox multiple)
-4. Clicca **"Aggiorna"**
-
-📷 *[Screenshot: Box applicazioni con checkbox multipli]*
-
-### Scegliere le Applicazioni Giuste
-
-**Esempi pratici:**
-- **Manichetta irrigazione** → Agrumeti, Vigneto, Ortaggi, Frutteti
-- **Prodotto specializzato** → Solo Vigneto
-- **Sistema irrigazione** → Ortaggi, Colture Protette, Agrumeti
-
-💡 **Suggerimento**: Seleziona solo le applicazioni realmente pertinenti. Troppi collegamenti rendono confusa la navigazione.
-
-### Verificare i Collegamenti
-
-**Dal prodotto:**
-- Nella sezione Applicazioni dovresti vedere le caselle selezionate
-
-**Dall'applicazione:**
-- Vai a **Applicazioni** nella lista
-- Il conteggio mostra quanti prodotti sono associati
-
-**Sul sito:**
-- Pagina applicazione: `/applicazioni/agrumeti/` → mostra prodotti per agrumeti
-- Pagina prodotto: mostra le applicazioni in cui è usato
+📷 *[Screenshot: Box applicazioni nell'editor prodotto]*
 
 ---
 
