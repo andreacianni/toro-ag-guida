@@ -1,7 +1,7 @@
-# Guida TORO Agroindustriale - GitBook
+# Guida Toro Ag - GitBook
 
 ## Descrizione Progetto
-Questa è una guida utente per il sito web TORO Agroindustriale, scritta in formato GitBook (Markdown). La guida spiega come utilizzare la dashboard WordPress per gestire prodotti, categorie e contenuti del sito.
+Questa è una guida utente per il sito web Toro Ag, scritta in formato GitBook (Markdown). La guida spiega come utilizzare la dashboard WordPress per gestire prodotti, categorie e contenuti del sito.
 
 ## Stato del Progetto
 **Controlla sempre il file `.claude/WORK_LOG.md`** all'inizio di ogni conversazione per:

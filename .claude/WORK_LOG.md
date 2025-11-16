@@ -1,4 +1,4 @@
-# Work Log - Guida TORO Agroindustriale
+# Work Log - Guida Toro Ag
 
 ## Stato Progetto
 **Ultimo aggiornamento**: 2025-01-16
