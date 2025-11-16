@@ -108,23 +108,45 @@ Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine d
 
 ## Collegare Prodotti e Tipi di Prodotto {#prodotti-tipi}
 
+<table>
+<tr>
+<td width="60%">
+
 I **Tipi di Prodotto** sono una tassonomia WordPress. Ogni prodotto deve essere associato a un tipo.
 
 Nell'editor del prodotto, trovi il box **"Tipo di Prodotto"** nella colonna destra. Seleziona UNA categoria (obbligatoria).
 
-📷 *[Screenshot: Box tipo di prodotto nell'editor prodotto]*
-
 ⚠️ **Importante**: Senza un tipo di prodotto associato, il prodotto non apparirà correttamente sul sito.
+
+</td>
+<td width="40%">
+
+![Box Tipo di Prodotto](assets/prodotti/Sidebar-01-Prodotti.jpg)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Collegare Prodotti e Applicazioni {#prodotti-applicazioni}
 
+<table>
+<tr>
+<td width="60%">
+
 Le **Applicazioni** sono una tassonomia WordPress. Un prodotto può essere associato a più applicazioni.
 
 Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. Seleziona una o più applicazioni (opzionale, ma consigliato).
 
-📷 *[Screenshot: Box applicazioni nell'editor prodotto]*
+</td>
+<td width="40%">
+
+![Box Applicazioni](assets/prodotti/Sidebar-00-Applicazioni.jpg)
+
+</td>
+</tr>
+</table>
 
 ---
 
