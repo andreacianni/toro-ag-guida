@@ -72,17 +72,17 @@ PRODOTTO (es. "Aqua Traxx PBX")
 
 Quando crei questi collegamenti, le tre prospettive si riflettono nelle pagine del sito:
 
-**Pagina Tipo di Prodotto** (es. `/prodotti/manichetta-e-ala-gocciolante/`)
+**Pagina Tipo di Prodotto** (es. <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/" target="_blank">manichetta-e-ala-gocciolante</a>)
 - Mostra tutti i prodotti di quel tipo
 - Lista le applicazioni coperte dai prodotti del tipo
 - Documenti comuni al tipo
 
-**Pagina Applicazione** (es. `/applicazioni/vigneto/`)
+**Pagina Applicazione** (es. <a href="https://www.toro-ag.it/applicazioni/irrigazione-agrumeti/" target="_blank">irrigazione-agrumeti</a>)
 - Mostra tutti i prodotti utilizzabili per quel settore
 - Raggruppa prodotti di tipi diversi
 - Brochure e documenti specifici per l'applicazione
 
-**Pagina Prodotto** (es. `/prodotti/aqua-traxx-pbx/`)
+**Pagina Prodotto** (es. <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-flowcontrol/" target="_blank">aqua-traxx-flowcontrol</a>)
 - Mostra il tipo di appartenenza
 - Lista tutte le applicazioni possibili
 - Tutti i documenti, schede e video associati
@@ -152,59 +152,84 @@ Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. 
 
 ## Collegare Documenti e Contenuti {#documenti-contenuti}
 
-### Tipi di Documenti
+Per la creazione e gestione dei documenti, consulta la pagina [Allegati Multilingua](05-allegati-multilingua.md).
 
-Il sistema gestisce diversi tipi di documenti:
+Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenuti.
 
-**Schede Prodotto**
-- Schede tecniche dettagliate
-- Associate a prodotti specifici o tipi di prodotto
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Documenti Prodotto**
-- Brochure, manuali, certificazioni
-- Possono essere associati a più elementi
+### Schema Relazioni Documenti → Contenuti
 
-**Brochure Coltura**
-- Documenti specifici per applicazioni
-- Associate alle applicazioni
+**📄 Schede Prodotto**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
-### Associare Schede Prodotto
+**📑 Documenti Prodotto**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
-**A un singolo prodotto:**
-1. Modifica il prodotto
-2. Sezione **"Scheda Prodotto"**
-3. Seleziona schede esistenti o crea nuove
+**🌾 Brochure Coltura**
+- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
+- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
+- <small style="color: #6c757d;">❌ NON associabili a Pagine</small>
+- ✅ Associabili solo ad **Applicazioni** (multi)
 
-**A un tipo di prodotto:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Scheda Prodotto tipo"**
-3. Seleziona schede esistenti
+**🎥 Video**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
-📷 *[Screenshot: Campo scheda prodotto nell'editor]*
+**🖼️ Documenti Plus**
+- <small style="color: #6c757d;">❌ NON associabili a Prodotti</small>
+- <small style="color: #6c757d;">❌ NON associabili a Tipi</small>
+- ✅ Associabili solo a **Pagine** (multi)
+- <small style="color: #6c757d;">❌ NON associabili ad Applicazioni</small>
 
-### Associare Documenti
+</td>
+<td width="50%" valign="top">
 
-**Documenti a Prodotti:**
-1. Modifica il prodotto
-2. Sezione **"Documento Prodotto"**
-3. Seleziona documenti esistenti
+### Schema Relazioni Contenuti → Documenti
 
-**Documenti a Tipi:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Documento Prodotto Tipo"**
-3. Seleziona documenti esistenti
+**📦 Prodotti**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Video** (multi)
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
-### Associare Video
+**🏷️ Tipi di Prodotto**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Video** (multi)
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
-**Video a Prodotti:**
-1. Modifica il prodotto
-2. Sezione **"Video Prodotto"**
-3. Seleziona video esistenti
+**🌱 Applicazioni**
+- <small style="color: #6c757d;">❌ NON possono avere Schede Prodotto</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Prodotto</small>
+- ✅ Possono avere **Brochure Coltura** (multi)
+- <small style="color: #6c757d;">❌ NON possono avere Video</small>
+- <small style="color: #6c757d;">❌ NON possono avere Documenti Plus</small>
 
-**Video a Tipi:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Video"**
-3. Seleziona video esistenti
+**📄 Pagine**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Documenti Plus** (multi)
+- ✅ Possono avere **Video** (multi)
+- <small style="color: #6c757d;">❌ NON possono avere Brochure Coltura</small>
+
+</td>
+</tr>
+</table>
+
+💡 **Regola chiave**: Tutte le associazioni sono **molti-a-molti** (multi). Un documento può essere associato a più elementi e viceversa.
 
 ---
 
