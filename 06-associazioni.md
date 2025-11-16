@@ -165,21 +165,31 @@ Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenu
 **📄 Schede Prodotto**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
 - ❌ NON associabili ad Applicazioni
 
 **📑 Documenti Prodotto**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
 - ❌ NON associabili ad Applicazioni
 
 **🌾 Brochure Coltura**
 - ❌ NON associabili a Prodotti
 - ❌ NON associabili a Tipi
+- ❌ NON associabili a Pagine
 - ✅ Associabili solo ad **Applicazioni** (multi)
 
 **🎥 Video**
 - ✅ Associabili a **Prodotti** (multi)
 - ✅ Associabili a **Tipi di Prodotto** (multi)
+- ✅ Associabili a **Pagine** (multi)
+- ❌ NON associabili ad Applicazioni
+
+**🖼️ Documenti Plus**
+- ❌ NON associabili a Prodotti
+- ❌ NON associabili a Tipi
+- ✅ Associabili solo a **Pagine** (multi)
 - ❌ NON associabili ad Applicazioni
 
 </td>
@@ -192,18 +202,28 @@ Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenu
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
 - ❌ NON possono avere Brochure Coltura
+- ❌ NON possono avere Documenti Plus
 
 **🏷️ Tipi di Prodotto**
 - ✅ Possono avere **Schede Prodotto** (multi)
 - ✅ Possono avere **Documenti Prodotto** (multi)
 - ✅ Possono avere **Video** (multi)
 - ❌ NON possono avere Brochure Coltura
+- ❌ NON possono avere Documenti Plus
 
 **🌱 Applicazioni**
 - ❌ NON possono avere Schede Prodotto
 - ❌ NON possono avere Documenti Prodotto
 - ✅ Possono avere **Brochure Coltura** (multi)
 - ❌ NON possono avere Video
+- ❌ NON possono avere Documenti Plus
+
+**📄 Pagine**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Documenti Plus** (multi)
+- ✅ Possono avere **Video** (multi)
+- ❌ NON possono avere Brochure Coltura
 
 </td>
 </tr>
