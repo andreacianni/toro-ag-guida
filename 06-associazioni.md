@@ -152,59 +152,64 @@ Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. 
 
 ## Collegare Documenti e Contenuti {#documenti-contenuti}
 
-### Tipi di Documenti
+Per la creazione e gestione dei documenti, consulta la pagina [Allegati Multilingua](05-allegati-multilingua.md).
 
-Il sistema gestisce diversi tipi di documenti:
+Questa sezione mostra solo **lo schema delle relazioni** tra documenti e contenuti.
 
-**Schede Prodotto**
-- Schede tecniche dettagliate
-- Associate a prodotti specifici o tipi di prodotto
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Documenti Prodotto**
-- Brochure, manuali, certificazioni
-- Possono essere associati a più elementi
+### Schema Relazioni Documenti → Contenuti
 
-**Brochure Coltura**
-- Documenti specifici per applicazioni
-- Associate alle applicazioni
+**📄 Schede Prodotto**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ❌ NON associabili ad Applicazioni
 
-### Associare Schede Prodotto
+**📑 Documenti Prodotto**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ❌ NON associabili ad Applicazioni
 
-**A un singolo prodotto:**
-1. Modifica il prodotto
-2. Sezione **"Scheda Prodotto"**
-3. Seleziona schede esistenti o crea nuove
+**🌾 Brochure Coltura**
+- ❌ NON associabili a Prodotti
+- ❌ NON associabili a Tipi
+- ✅ Associabili solo ad **Applicazioni** (multi)
 
-**A un tipo di prodotto:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Scheda Prodotto tipo"**
-3. Seleziona schede esistenti
+**🎥 Video**
+- ✅ Associabili a **Prodotti** (multi)
+- ✅ Associabili a **Tipi di Prodotto** (multi)
+- ❌ NON associabili ad Applicazioni
 
-📷 *[Screenshot: Campo scheda prodotto nell'editor]*
+</td>
+<td width="50%" valign="top">
 
-### Associare Documenti
+### Schema Relazioni Contenuti → Documenti
 
-**Documenti a Prodotti:**
-1. Modifica il prodotto
-2. Sezione **"Documento Prodotto"**
-3. Seleziona documenti esistenti
+**📦 Prodotti**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Video** (multi)
+- ❌ NON possono avere Brochure Coltura
 
-**Documenti a Tipi:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Documento Prodotto Tipo"**
-3. Seleziona documenti esistenti
+**🏷️ Tipi di Prodotto**
+- ✅ Possono avere **Schede Prodotto** (multi)
+- ✅ Possono avere **Documenti Prodotto** (multi)
+- ✅ Possono avere **Video** (multi)
+- ❌ NON possono avere Brochure Coltura
 
-### Associare Video
+**🌱 Applicazioni**
+- ❌ NON possono avere Schede Prodotto
+- ❌ NON possono avere Documenti Prodotto
+- ✅ Possono avere **Brochure Coltura** (multi)
+- ❌ NON possono avere Video
 
-**Video a Prodotti:**
-1. Modifica il prodotto
-2. Sezione **"Video Prodotto"**
-3. Seleziona video esistenti
+</td>
+</tr>
+</table>
 
-**Video a Tipi:**
-1. Modifica il tipo di prodotto
-2. Sezione **"Video"**
-3. Seleziona video esistenti
+💡 **Regola chiave**: Tutte le associazioni sono **molti-a-molti** (multi). Un documento può essere associato a più elementi e viceversa.
 
 ---
 
