@@ -18,34 +18,116 @@ Per accedere alla tassonomia, clicca su **"Tipo di Prodotti"** nella barra later
 
 ## Come i Campi Custom Appaiono sul Sito
 
-Ogni campo che compili nell'amministrazione ha una corrispondenza precisa nel frontend. Ecco la mappa completa:
+Ogni campo compilato nell'amministrazione corrisponde a un elemento specifico nel frontend.
 
-### Nome e Descrizione → Titolo e Contenuto Pagina
+### Titolo
 
-![Nome prodotto backend vs frontend](assets/tipi-prodotto/tipi-prodotto-01.jpg)
+**Nel frontend:**
 
-Il **Nome** del tipo diventa il **titolo principale** della pagina, mentre la **Descrizione** diventa il testo introduttivo.
+![Titolo nel frontend](assets/tipi-prodotto/tipi-prodotto-03-titolo-front.jpg)
 
-### Thumbnail → Griglia Tipi di Prodotto
+**Nel backend:**
 
-![Thumbnail backend vs frontend](assets/tipi-prodotto/tipi-prodotto-03-thumb.jpg)
+![Campo Nome](assets/tipi-prodotto/tipi-prodotto-03-titolo-back.jpg)
 
-La **Thumbnail** (miniatura) appare nella griglia della pagina `/prodotti/` quando si visualizzano tutti i tipi di prodotto.
+Modifica il campo **"Nome"** (funzionamento standard WordPress).
 
-### Immagine Hero → Header Pagina Tipo
+---
 
-![Immagine Hero backend vs frontend](assets/tipi-prodotto/tipi-prodotto-02-hero.jpg)
+### Descrizione
 
-L'**Immagine Hero** diventa l'immagine grande in cima alla pagina del singolo tipo di prodotto.
+**Nel frontend:**
 
-### Schede e Documenti → Sezioni Download
+![Descrizione nel frontend](assets/tipi-prodotto/tipi-prodotto-04-descrizione-front.jpg)
 
-![Schede e Documenti backend vs frontend](assets/tipi-prodotto/tipi-prodotto-04-schede-documenti.jpg)
+**Nel backend:**
 
-Le **Schede Prodotto** e i **Documenti** associati appaiono come link scaricabili organizzati in sezioni dedicate nella pagina del tipo.
+![Editor descrizione](assets/tipi-prodotto/tipi-prodotto-04-descrizione-back.jpg)
 
-### Video → Player Video nella Pagina
+Usa l'editor **"Descrizione"** con formattazione Rich Text.
 
-![Video backend vs frontend](assets/tipi-prodotto/tipi-prodotto-05-video.jpg)
+---
 
-I **Video** associati vengono mostrati con un player integrato (YouTube) nella pagina del tipo di prodotto.
+### Thumbnail (Miniatura)
+
+**Nel frontend:**
+
+![Thumbnail nella griglia](assets/tipi-prodotto/tipi-prodotto-01-thumb-front.jpg)
+
+**Nel backend:**
+
+![Campo Thumbnail](assets/tipi-prodotto/tipi-prodotto-01-thumb-back.jpg)
+
+Clicca **"Aggiungi file"** nel campo **"Thumbnails del tipo di prodotto"**. Dimensione consigliata: 400x300px.
+
+---
+
+### Immagine Hero
+
+**Nel frontend:**
+
+![Immagine Hero](assets/tipi-prodotto/tipi-prodotto-02-hero-Front.jpg)
+
+**Nel backend:**
+
+![Campo Hero](assets/tipi-prodotto/tipi-prodotto-02-hero-back.jpg)
+
+Clicca **"Aggiungi file"** nel campo **"Immagine Hero del tipo di prodotto"**. Dimensione consigliata: 1920x600px.
+
+---
+
+### Schede Prodotto
+
+**Nel frontend:**
+
+![Schede nel frontend](assets/tipi-prodotto/tipi-prodotto-05-schede-front.jpg)
+
+**Nel backend:**
+
+![Campo Schede](assets/tipi-prodotto/tipi-prodotto-05-schede-back.jpg)
+
+Seleziona le schede dal campo **"Scheda Prodotto tipo"**.
+
+💡 Per gestire i file delle schede, vedi [Allegati Multilingua](05-allegati-multilingua.md).
+
+---
+
+### Documenti
+
+**Nel frontend:**
+
+![Documenti nel frontend](assets/tipi-prodotto/tipi-prodotto-06-documenti-front.jpg)
+
+**Nel backend:**
+
+![Campo Documenti](assets/tipi-prodotto/tipi-prodotto-06-documenti-back.jpg)
+
+Seleziona i documenti dal campo **"Documento Prodotto Tipo"**.
+
+💡 Per gestire i file dei documenti, vedi [Allegati Multilingua](05-allegati-multilingua.md).
+
+---
+
+### Video
+
+**Nel frontend:**
+
+![Video nel frontend](assets/tipi-prodotto/tipi-prodotto-07-video-front.jpg)
+
+**Nel backend:**
+
+![Campo Video](assets/tipi-prodotto/tipi-prodotto-07-video-back.jpg)
+
+Seleziona i video dal campo **"Video"**.
+
+💡 Per gestire i video, vedi [Allegati Multilingua](05-allegati-multilingua.md).
+
+---
+
+### Prodotti Associati
+
+**Nel frontend:**
+
+![Griglia prodotti](assets/tipi-prodotto/tipi-prodotto-08-Prodotti-front.jpg)
+
+I prodotti vengono associati automaticamente quando li crei o modifichi. Vedi [Gestire i Prodotti](03-prodotti.md).
