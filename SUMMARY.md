@@ -7,6 +7,14 @@
 
 ## Gestione Contenuti
 * [Tipi di Prodotto](02-tipi-prodotto.md)
+  * [Titolo](02-tipi-prodotto.md#titolo)
+  * [Descrizione](02-tipi-prodotto.md#descrizione)
+  * [Thumbnail (Miniatura)](02-tipi-prodotto.md#thumbnail-miniatura)
+  * [Immagine Hero](02-tipi-prodotto.md#immagine-hero)
+  * [Schede Prodotto](02-tipi-prodotto.md#schede-prodotto)
+  * [Documenti](02-tipi-prodotto.md#documenti)
+  * [Video](02-tipi-prodotto.md#video)
+  * [Prodotti Associati](02-tipi-prodotto.md#prodotti-associati)
 * [Prodotti](03-prodotti.md)
   * [Aggiungere un nuovo Prodotto](03-prodotti.md#nuovo-prodotto)
   * [Modificare un Prodotto](03-prodotti.md#modificare-prodotto)
