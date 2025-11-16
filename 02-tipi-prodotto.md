@@ -10,15 +10,23 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 
 **Nell'amministrazione:**
 
-Per accedere alla tassonomia, clicca su **"Tipo di Prodotti"** nella barra laterale. Per modificare un termine esistente, clicca su **"Modifica"** sotto il nome del termine nella lista.
+**Passo 1: Accedere alla tassonomia**
 
-![Accesso alla tassonomia Tipo di Prodotti](assets/tipi-prodotto/tipi-prodotto-00-admin.jpg)
+Clicca su **"Tipo di Prodotti"** nella barra laterale.
+
+![Accesso alla tassonomia](assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg)
+
+**Passo 2: Modificare un termine**
+
+Clicca su **"Modifica"** sotto il nome del termine che vuoi modificare.
+
+![Modifica di un termine](assets/tipi-prodotto/tipi-prodotto-00-admin-2.jpg)
 
 ---
 
 ## Come i Campi Custom Appaiono sul Sito
 
-Ogni campo compilato nell'amministrazione corrisponde a un elemento specifico nel frontend.
+Di seguito la corrispondenza tra gli elementi visualizzati nel frontend e i singoli campi da compilare nel backend.
 
 ### Titolo
 
