@@ -2,6 +2,8 @@
 
 Gli allegati sono file PDF, documenti o video che possono essere associati ai prodotti e alle applicazioni. Il sistema gestisce automaticamente la visualizzazione in base alla lingua del sito.
 
+Per capire come collegare gli allegati ai vari elementi, consulta la pagina [Come collegare gli elementi](06-associazioni.md).
+
 ---
 
 ## Dove trovarli
@@ -46,7 +48,7 @@ L'interfaccia è identica per **Schede Prodotto**, **Documenti Prodotti** e **Br
 
 Quando modifichi un prodotto o tipo di prodotto vedi:
 - Lista degli allegati già associati
-- Pulsante **"Aggiungi"** per nuove associazioni
+- Pulsante **"Aggiungi"** per associare un nuovo documento non ancora creato altrove
 - Icone per modificare o rimuovere
 
 ### Associare un allegato esistente
@@ -69,10 +71,7 @@ Quando modifichi un prodotto o tipo di prodotto vedi:
 2. Si apre il pannello di modifica con:
    - **Titolo** - Nome dell'allegato
    - **File PDF** - Upload o sostituzione file
-   - **Lingua** - Selezione lingua principale
    - **Lingue aggiuntive** - Altre lingue disponibili
-   - **Prodotto** - Associazione prodotto (se necessario)
-   - **Campi SEO** - Ottimizzazione motori di ricerca
 
 ### Creare un nuovo allegato
 
