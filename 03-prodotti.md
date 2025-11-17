@@ -66,11 +66,11 @@ Di seguito la corrispondenza tra gli elementi visualizzati nel frontend e i sing
 
 **Nel frontend:**
 
-<img src="assets/prodotti/prodotti-01-titolo-front.jpg" alt="Titolo nel frontend" style="border: 1px solid #e0e0e0; border-radius: 4px;">
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-01-titolo-front.jpg" alt="Titolo nel frontend"></div>
 
 **Nel backend:**
 
-<img src="assets/prodotti/prodotti-01-titolo-back.jpg" alt="Campo Titolo" style="border: 1px solid #e0e0e0; border-radius: 4px;">
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-01-titolo-back.jpg" alt="Campo Titolo"></div>
 
 Modifica il campo **"Titolo"** nella parte superiore dell'editor (funzionamento standard WordPress).
 
