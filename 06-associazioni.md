@@ -116,7 +116,7 @@ Nell'editor del prodotto, trovi il box **"Tipo di Prodotto"** nella colonna dest
 **Importante**: Senza un tipo di prodotto associato, il prodotto non apparirà correttamente sul sito.
 {% endhint %}
 
-![Box Tipo di Prodotto](assets/prodotti/Sidebar-01-Prodotti.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/Sidebar-01-Prodotti.jpg" alt="Box Tipo di Prodotto"></div>
 
 ---
 
@@ -126,7 +126,7 @@ Le **Applicazioni** sono una tassonomia WordPress. Un prodotto può essere assoc
 
 Nell'editor del prodotto, trovi il box **"Applicazioni"** nella colonna destra. Seleziona una o più applicazioni (opzionale, ma consigliato).
 
-![Box Applicazioni](assets/prodotti/Sidebar-00-Applicazioni.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/Sidebar-00-Applicazioni.jpg" alt="Box Applicazioni"></div>
 
 ---
 

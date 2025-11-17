@@ -14,13 +14,13 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 
 Clicca su **"Tipo di Prodotti"** nella barra laterale.
 
-![Accesso alla tassonomia](assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg" alt="Accesso alla tassonomia"></div>
 
 **Passo 2: Modificare un termine**
 
 Clicca su **"Modifica"** sotto il nome del termine che vuoi modificare.
 
-![Modifica di un termine](assets/tipi-prodotto/tipi-prodotto-00-admin-2.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-2.jpg" alt="Modifica di un termine"></div>
 
 ---
 
@@ -32,11 +32,11 @@ Di seguito la corrispondenza tra gli elementi visualizzati nel frontend e i sing
 
 **Nel frontend:**
 
-![Titolo nel frontend](assets/tipi-prodotto/tipi-prodotto-03-titolo-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-03-titolo-front.jpg" alt="Titolo nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Nome](assets/tipi-prodotto/tipi-prodotto-03-titolo-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-03-titolo-back.jpg" alt="Campo Nome"></div>
 
 Modifica il campo **"Nome"** (funzionamento standard WordPress).
 
@@ -46,11 +46,11 @@ Modifica il campo **"Nome"** (funzionamento standard WordPress).
 
 **Nel frontend:**
 
-![Descrizione nel frontend](assets/tipi-prodotto/tipi-prodotto-04-descrizione-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-04-descrizione-front.jpg" alt="Descrizione nel frontend"></div>
 
 **Nel backend:**
 
-![Editor descrizione](assets/tipi-prodotto/tipi-prodotto-04-descrizione-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-04-descrizione-back.jpg" alt="Editor descrizione"></div>
 
 Usa l'editor **"Descrizione"** con formattazione Rich Text.
 
@@ -60,11 +60,11 @@ Usa l'editor **"Descrizione"** con formattazione Rich Text.
 
 **Nel frontend:**
 
-![Thumbnail nelle griglie, es. nella pagina Prodotti](assets/tipi-prodotto/tipi-prodotto-01-thumb-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-01-thumb-front.jpg" alt="Thumbnail nelle griglie, es. nella pagina Prodotti"></div>
 
 **Nel backend:**
 
-![Campo Thumbnail](assets/tipi-prodotto/tipi-prodotto-01-thumb-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-01-thumb-back.jpg" alt="Campo Thumbnail"></div>
 
 Clicca **"Aggiungi file"** nel campo **"Thumbnails del tipo di prodotto"**. Dimensione consigliata: 400x300px.
 
@@ -74,11 +74,11 @@ Clicca **"Aggiungi file"** nel campo **"Thumbnails del tipo di prodotto"**. Dime
 
 **Nel frontend:**
 
-![Immagine Hero](assets/tipi-prodotto/tipi-prodotto-02-hero-Front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-02-hero-Front.jpg" alt="Immagine Hero"></div>
 
 **Nel backend:**
 
-![Campo Hero](assets/tipi-prodotto/tipi-prodotto-02-hero-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-02-hero-back.jpg" alt="Campo Hero"></div>
 
 Clicca **"Aggiungi file"** nel campo **"Immagine Hero del tipo di prodotto"**. Dimensione consigliata: 1920x600px.
 
@@ -88,11 +88,11 @@ Clicca **"Aggiungi file"** nel campo **"Immagine Hero del tipo di prodotto"**. D
 
 **Nel frontend:**
 
-![Schede nel frontend](assets/tipi-prodotto/tipi-prodotto-05-schede-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-05-schede-front.jpg" alt="Schede nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Schede](assets/tipi-prodotto/tipi-prodotto-05-schede-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-05-schede-back.jpg" alt="Campo Schede"></div>
 
 Seleziona le schede dal campo **"Scheda Prodotto tipo"**.
 
@@ -104,11 +104,11 @@ Seleziona le schede dal campo **"Scheda Prodotto tipo"**.
 
 **Nel frontend:**
 
-![Documenti nel frontend](assets/tipi-prodotto/tipi-prodotto-06-documenti-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-06-documenti-front.jpg" alt="Documenti nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Documenti](assets/tipi-prodotto/tipi-prodotto-06-documenti-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-06-documenti-back.jpg" alt="Campo Documenti"></div>
 
 Seleziona i documenti dal campo **"Documento Prodotto Tipo"**.
 
@@ -120,11 +120,11 @@ Seleziona i documenti dal campo **"Documento Prodotto Tipo"**.
 
 **Nel frontend:**
 
-![Video nel frontend](assets/tipi-prodotto/tipi-prodotto-07-video-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-07-video-front.jpg" alt="Video nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Video](assets/tipi-prodotto/tipi-prodotto-07-video-back.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-07-video-back.jpg" alt="Campo Video"></div>
 
 Seleziona i video dal campo **"Video"**.
 
@@ -136,6 +136,6 @@ Seleziona i video dal campo **"Video"**.
 
 **Nel frontend:**
 
-![Griglia prodotti](assets/tipi-prodotto/tipi-prodotto-08-Prodotti-front.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-08-Prodotti-front.jpg" alt="Griglia prodotti"></div>
 
 I prodotti vengono associati automaticamente quando li crei o modifichi. Vedi [Gestire i Prodotti](03-prodotti.md).

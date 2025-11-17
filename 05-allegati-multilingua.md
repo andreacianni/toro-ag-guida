@@ -8,7 +8,7 @@ Per capire come collegare gli allegati ai vari elementi, consulta la pagina [Com
 
 ## Dove trovarli
 
-![Menu WordPress](assets/Documenti-Schede-Brochure/00-menù.jpg)
+<div data-with-frame="true"><img src="assets/Documenti-Schede-Brochure/00-menù.jpg" alt="Menu WordPress"></div>
 
 Nel menu laterale di WordPress trovi 5 tipologie di allegati:
 
@@ -44,7 +44,7 @@ L'interfaccia è identica per **Schede Prodotto**, **Documenti Prodotti** e **Br
 
 ### Panoramica elementi associati
 
-![Panoramica](assets/Documenti-Schede-Brochure/01-panoramica.jpg)
+<div data-with-frame="true"><img src="assets/Documenti-Schede-Brochure/01-panoramica.jpg" alt="Panoramica"></div>
 
 Quando modifichi un prodotto o tipo di prodotto vedi:
 - Lista degli allegati già associati
@@ -53,7 +53,7 @@ Quando modifichi un prodotto o tipo di prodotto vedi:
 
 ### Associare un allegato esistente
 
-![Ricerca allegato](assets/Documenti-Schede-Brochure/02-associazione-esistente.jpg)
+<div data-with-frame="true"><img src="assets/Documenti-Schede-Brochure/02-associazione-esistente.jpg" alt="Ricerca allegato"></div>
 
 **Per associare un file già esistente:**
 1. Clicca sul campo di ricerca
@@ -64,7 +64,7 @@ Quando modifichi un prodotto o tipo di prodotto vedi:
 
 ### Modificare un allegato
 
-![Modifica allegato](assets/Documenti-Schede-Brochure/03-modifica.jpg)
+<div data-with-frame="true"><img src="assets/Documenti-Schede-Brochure/03-modifica.jpg" alt="Modifica allegato"></div>
 
 **Dalla lista allegati:**
 1. Clicca sull'icona matita ✏️
@@ -75,7 +75,7 @@ Quando modifichi un prodotto o tipo di prodotto vedi:
 
 ### Creare un nuovo allegato
 
-![Aggiungi nuovo](assets/Documenti-Schede-Brochure/04-aggiungi-nuovo.jpg)
+<div data-with-frame="true"><img src="assets/Documenti-Schede-Brochure/04-aggiungi-nuovo.jpg" alt="Aggiungi nuovo"></div>
 
 **Dall'editor prodotto/tipo:**
 1. Clicca **"Aggiungi"** nella sezione allegati
@@ -187,7 +187,7 @@ Il nuovo allegato viene automaticamente associato al prodotto che stai modifican
 
 **Dove appare:** Sezione "Video" nella pagina prodotto, con player integrato
 
-![Video multilingua](assets/tipi-prodotto/tipi-prodotto-05-video.jpg)
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-05-video.jpg" alt="Video multilingua"></div>
 
 **Campi da compilare:**
 - **Titolo** - Nome descrittivo (es. "Tempus® Air - Irrigazione Senza Fili")

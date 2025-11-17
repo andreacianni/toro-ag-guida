@@ -21,7 +21,7 @@ Nel menu laterale a sinistra trovi le sezioni principali che utilizzerai:
 - **[Tipo di Prodotti](02-tipi-prodotto.md)** - Gestire le categorie di prodotti
 - **[Applicazioni](04-applicazioni.md)** - Gestire le applicazioni/colture
 
-![Menu laterale con le voci evidenziate](.gitbook/assets/Screen-Dash_menu-CTP.jpg)
+<div data-with-frame="true"><img src=".gitbook/assets/Screen-Dash_menu-CTP.jpg" alt="Menu laterale con le voci evidenziate"></div>
 
 ## Interfaccia di Base
 
