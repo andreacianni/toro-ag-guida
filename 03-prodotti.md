@@ -5,19 +5,21 @@ Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a un
 
 ## In questa pagina
 
-- [Dove si Vedono i Prodotti](#dove-si-vedono-i-prodotti)
-- [Come i Campi Custom Appaiono sul Sito](#come-i-campi-custom-appaiono-sul-sito)
-  - [Titolo](#titolo)
-  - [Descrizione](#descrizione)
-  - [Immagine in Evidenza](#immagine-in-evidenza)
-  - [Tipo di Prodotto](#tipo-di-prodotto)
-  - [Applicazioni](#applicazioni)
-  - [Schede Prodotto](#schede-prodotto)
-  - [Documenti Prodotto](#documenti-prodotto)
-  - [Video Prodotto](#video-prodotto)
-- [Funzionalità Opzionali](#funzionalita-opzionali)
-  - [Galleria Prodotto](#galleria-prodotto)
-  - [Pulsante "Attivalo Ora"](#pulsante-attivalo-ora)
+- [Gestire i Prodotti](#gestire-i-prodotti)
+  - [In questa pagina](#in-questa-pagina)
+  - [Dove si Vedono i Prodotti](#dove-si-vedono-i-prodotti)
+  - [Come i Campi Custom Appaiono sul Sito](#come-i-campi-custom-appaiono-sul-sito)
+    - [Titolo](#titolo)
+    - [Descrizione](#descrizione)
+    - [Immagine in Evidenza](#immagine-in-evidenza)
+    - [Tipo di Prodotto](#tipo-di-prodotto)
+    - [Applicazioni](#applicazioni)
+    - [Schede Prodotto](#schede-prodotto)
+    - [Documenti Prodotto](#documenti-prodotto)
+    - [Video Prodotto](#video-prodotto)
+  - [Funzionalità Opzionali](#funzionalità-opzionali)
+    - [Galleria Prodotto](#galleria-prodotto)
+    - [Pulsante "Attivalo Ora"](#pulsante-attivalo-ora)
 
 ---
 
@@ -92,11 +94,11 @@ L'immagine in evidenza viene utilizzata in due contesti:
 - Nelle **griglie dei prodotti** (pagine archivio dei tipi di prodotto)
 - Nella **pagina del singolo prodotto**
 
-**Nel frontend - Griglia prodotti:**
+**Nel frontend - Pagina singolo prodotto:**
 
 ![Immagine in evidenza nella griglia dei prodotti](assets/prodotti/prodotti-03a-immagine-front.jpg)
 
-**Nel frontend - Pagina singolo prodotto:**
+**Nel frontend - Griglia prodotti:**
 
 ![Immagine in evidenza nella pagina del prodotto](assets/prodotti/prodotti-03b-immagine-front.jpg)
 
@@ -104,7 +106,7 @@ L'immagine in evidenza viene utilizzata in due contesti:
 
 ![Campo Immagine in Evidenza](assets/prodotti/prodotti-03-immagine-back.jpg)
 
-Clicca **"Imposta immagine in primo piano"** nella colonna destra. Dimensione consigliata: 800x600px.
+Nella colonna destra, nella box **Immagine in evidenza** clicca l'immagine per aprire la galleria dei Media e sceglierne un'altra o su **"Rimuovi immagine in evidenza"**. Dimensione consigliata: 800 x 800px.
 
 ---
 
