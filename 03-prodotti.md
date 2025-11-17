@@ -148,7 +148,12 @@ Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noc
 
 **Nel frontend:**
 
-<div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-EN.jpg" alt="Schede scaricabili nel frontend"></div>
+<table>
+<tr>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-IT.jpg" alt="Schede scaricabili nel frontend (IT)"></div></td>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-EN.jpg" alt="Schede scaricabili nel frontend (EN)"></div></td>
+</tr>
+</table>
 
 **Nel backend:**
 
