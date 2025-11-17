@@ -164,7 +164,12 @@ Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi
 
 **Nel frontend:**
 
-<div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-EN.jpg" alt="Documenti nel frontend"></div>
+<table>
+<tr>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-IT.jpg" alt="Documenti nel frontend (IT)"></div></td>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-EN.jpg" alt="Documenti nel frontend (EN)"></div></td>
+</tr>
+</table>
 
 **Nel backend:**
 
@@ -180,7 +185,12 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 
 **Nel frontend:**
 
-<div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-EN.jpg" alt="Video nel frontend"></div>
+<table>
+<tr>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-IT.jpg" alt="Video nel frontend (IT)"></div></td>
+<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-EN.jpg" alt="Video nel frontend (EN)"></div></td>
+</tr>
+</table>
 
 **Nel backend:**
 
