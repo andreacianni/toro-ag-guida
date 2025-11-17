@@ -14,7 +14,7 @@ Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a un
 **Accedere alla modifica dei prodotti**
 
 **Dal sito pubblico:**
-Nella pagina del prosotto, se loggato come Admin, clicca su **"Modifica Prodotto"** per accedere alla maschera di modifica del prodotto
+Quando sei loggato come amministratore, nella pagina del prodotto apparirà il pulsante **"Modifica Prodotto"** per accedere direttamente alla maschera di modifica
 
 ![modifica prodotto](assets/prodotti/prodotti-00-admin-4.jpg)
 
@@ -68,13 +68,15 @@ Modifica il campo **"Titolo"** nella parte superiore dell'editor (funzionamento 
 
 Usa l'editor principale con formattazione Rich Text per inserire la descrizione completa del prodotto con tutte le informazioni tecniche.
 
+⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi per modificare questo campo. Utilizza sempre l'editor di testo standard di WordPress per mantenere la compatibilità con il tema.
+
 ---
 
 ### Immagine in Evidenza
 
 **Nel frontend:**
 
-![Immagine principale del prodotto](assets/prodotti/prodotti-03-immagine-front.jpg)
+![Immagine principale del prodotto](assets/prodotti/prodotti-03a-immagine-front.jpg)
 
 **Nel backend:**
 
@@ -118,27 +120,11 @@ Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noc
 
 ---
 
-### Galleria Prodotto
-
-**Nel frontend:**
-
-![Carousel/Galleria immagini](assets/prodotti/prodotti-06-galleria-front.jpg)
-
-**Nel backend:**
-
-![Campo Galleria Prodotto](assets/prodotti/prodotti-06-galleria-back.jpg)
-
-Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"** per aggiungere immagini aggiuntive al carousel.
-
-💡 L'immagine in evidenza viene inclusa automaticamente nel carousel.
-
----
-
 ### Schede Prodotto
 
 **Nel frontend:**
 
-![Schede scaricabili nel frontend](assets/prodotti/prodotti-07-schede-front.jpg)
+![Schede scaricabili nel frontend](assets/prodotti/prodotti-07-schede-front-EN.jpg)
 
 **Nel backend:**
 
@@ -154,7 +140,7 @@ Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi
 
 **Nel frontend:**
 
-![Documenti nel frontend](assets/prodotti/prodotti-08-documenti-front.jpg)
+![Documenti nel frontend](assets/prodotti/prodotti-08-documenti-front-EN.jpg)
 
 **Nel backend:**
 
@@ -170,7 +156,7 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 
 **Nel frontend:**
 
-![Video nel frontend](assets/prodotti/prodotti-09-video-front.jpg)
+![Video nel frontend](assets/prodotti/prodotti-09-video-front-EN.jpg)
 
 **Nel backend:**
 
@@ -179,6 +165,49 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 Seleziona i video dimostrativi dal campo **"Video Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare i video esistenti.
 
 💡 Per gestire i video, vedi [Allegati Multilingua](05-allegati-multilingua.md).
+
+---
+
+## Funzionalità Opzionali
+
+Le seguenti funzionalità sono disponibili per personalizzazioni avanzate ma non sono utilizzate di default su tutti i prodotti.
+
+### Galleria Prodotto
+
+**Nel frontend:**
+
+![Carousel/Galleria immagini](assets/prodotti/prodotti-06-galleria-front.jpg)
+
+**Nel backend:**
+
+![Campo Galleria Prodotto](assets/prodotti/prodotti-06-galleria-back.jpg)
+
+Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"** per aggiungere immagini aggiuntive al carousel.
+
+💡 L'immagine in evidenza viene inclusa automaticamente nel carousel.
+
+⚠️ **Nota**: Questa funzionalità è attualmente utilizzata come prova solo su alcuni prodotti, ad esempio: <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-b-come/" target="_blank">Aqua-Traxx® B-COME</a>
+
+---
+
+### Pulsante "Attivalo Ora"
+
+Questo pulsante speciale permette di creare un link diretto a una pagina specifica per il prodotto.
+
+**Nel frontend:**
+
+![Pulsante Attivalo Ora](assets/prodotti/prodotti-10-Btn_AttivaloOra-front.jpg)
+
+**Nel backend - Editor visuale:**
+
+![Pulsante in editor WYSIWYG](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-WSIWG.jpg)
+
+**Nel backend - Codice HTML:**
+
+![Codice HTML del pulsante](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-Code.jpg)
+
+⚠️ **Importante - Manutenzione del Codice HTML**:
+Quando modifichi il contenuto del prodotto, assicurati di mantenere intatto il codice HTML del pulsante. Se il codice viene alterato o modificato tramite l'editor visuale, gli stili CSS potrebbero non funzionare correttamente. Per modificare il pulsante, utilizza la modalità "Testo/HTML" dell'editor di WordPress.
 
 ---
 
