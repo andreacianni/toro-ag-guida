@@ -3,6 +3,22 @@
 I **Prodotti** sono i singoli elementi del tuo catalogo (es. "Aqua-Traxx® FlowControl™", "Tempus® Air RS4").
 Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a una o più Applicazioni (colture).
 
+## In questa pagina
+
+- [Dove si Vedono i Prodotti](#dove-si-vedono-i-prodotti)
+- [Come i Campi Custom Appaiono sul Sito](#come-i-campi-custom-appaiono-sul-sito)
+  - [Titolo](#titolo)
+  - [Descrizione](#descrizione)
+  - [Immagine in Evidenza](#immagine-in-evidenza)
+  - [Tipo di Prodotto](#tipo-di-prodotto)
+  - [Applicazioni](#applicazioni)
+  - [Schede Prodotto](#schede-prodotto)
+  - [Documenti Prodotto](#documenti-prodotto)
+  - [Video Prodotto](#video-prodotto)
+- [Funzionalità Opzionali](#funzionalita-opzionali)
+  - [Galleria Prodotto](#galleria-prodotto)
+  - [Pulsante "Attivalo Ora"](#pulsante-attivalo-ora)
+
 ---
 
 ## Dove si Vedono i Prodotti
@@ -14,9 +30,11 @@ Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a un
 **Accedere alla modifica dei prodotti**
 
 **Dal sito pubblico:**
-Nella pagina del prosotto, se loggato come Admin, clicca su **"Modifica Prodotto"** per accedere alla maschera di modifica del prodotto
+Nella pagina del prodotto, se loggato come Admin, clicca su **"Modifica Prodotto"** per accedere alla maschera di modifica del prodotto.
 
 ![modifica prodotto](assets/prodotti/prodotti-00-admin-4.jpg)
+
+⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
 
 **Nell'amministrazione:**
 
@@ -64,9 +82,7 @@ Modifica il campo **"Titolo"** nella parte superiore dell'editor (funzionamento 
 
 **Nel backend:**
 
-![Editor descrizione](assets/prodotti/prodotti-02-descrizione-back.jpg)
-
-Usa l'editor principale con formattazione Rich Text per inserire la descrizione completa del prodotto con tutte le informazioni tecniche.
+Usa l'editor principale con formattazione Rich Text per inserire la descrizione completa del prodotto con tutte le informazioni tecniche (editor standard WordPress).
 
 ---
 
@@ -74,7 +90,9 @@ Usa l'editor principale con formattazione Rich Text per inserire la descrizione 
 
 **Nel frontend:**
 
-![Immagine principale del prodotto](assets/prodotti/prodotti-03-immagine-front.jpg)
+![Immagine principale del prodotto](assets/prodotti/prodotti-03a-immagine-front.jpg)
+
+![Immagine in evidenza nella descrizione](assets/prodotti/prodotti-03b-immagine-front.jpg)
 
 **Nel backend:**
 
@@ -118,27 +136,11 @@ Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noc
 
 ---
 
-### Galleria Prodotto
-
-**Nel frontend:**
-
-![Carousel/Galleria immagini](assets/prodotti/prodotti-06-galleria-front.jpg)
-
-**Nel backend:**
-
-![Campo Galleria Prodotto](assets/prodotti/prodotti-06-galleria-back.jpg)
-
-Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"** per aggiungere immagini aggiuntive al carousel.
-
-💡 L'immagine in evidenza viene inclusa automaticamente nel carousel.
-
----
-
 ### Schede Prodotto
 
 **Nel frontend:**
 
-![Schede scaricabili nel frontend](assets/prodotti/prodotti-07-schede-front.jpg)
+![Schede scaricabili nel frontend](assets/prodotti/prodotti-07-schede-front-EN.jpg)
 
 **Nel backend:**
 
@@ -154,7 +156,7 @@ Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi
 
 **Nel frontend:**
 
-![Documenti nel frontend](assets/prodotti/prodotti-08-documenti-front.jpg)
+![Documenti nel frontend](assets/prodotti/prodotti-08-documenti-front-EN.jpg)
 
 **Nel backend:**
 
@@ -170,7 +172,7 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 
 **Nel frontend:**
 
-![Video nel frontend](assets/prodotti/prodotti-09-video-front.jpg)
+![Video nel frontend](assets/prodotti/prodotti-09-video-front-EN.jpg)
 
 **Nel backend:**
 
@@ -179,6 +181,51 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 Seleziona i video dimostrativi dal campo **"Video Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare i video esistenti.
 
 💡 Per gestire i video, vedi [Allegati Multilingua](05-allegati-multilingua.md).
+
+---
+
+## Funzionalità Opzionali
+
+Le seguenti funzionalità sono disponibili ma non utilizzate in tutti i prodotti. Configurale solo se necessario per casi specifici.
+
+### Galleria Prodotto
+
+**Nel frontend:**
+
+![Carousel/Galleria immagini](assets/prodotti/prodotti-06-galleria-front.jpg)
+
+**Nel backend:**
+
+![Campo Galleria Prodotto](assets/prodotti/prodotti-06-galleria-back.jpg)
+
+Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"** per aggiungere immagini aggiuntive al carousel.
+
+💡 L'immagine in evidenza viene inclusa automaticamente nel carousel.
+
+📌 **Nota**: Questa funzionalità è attualmente utilizzata solo come prova nel prodotto <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-b-come/" target="_blank">Aqua-Traxx® B-Come</a>.
+
+---
+
+### Pulsante "Attivalo Ora"
+
+**Nel frontend:**
+
+![Pulsante Attivalo Ora](assets/prodotti/prodotti-10-Btn_AttivaloOra-front.jpg)
+
+**Nel backend:**
+
+Questo pulsante richiede particolare attenzione nella configurazione del codice HTML.
+
+![Modalità Code nel backend](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-Code.jpg)
+
+![Modalità WYSIWYG nel backend](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-WSIWG.jpg)
+
+⚠️ **ATTENZIONE**: È fondamentale mantenere il codice HTML corretto durante la modifica. Se il codice viene alterato, gli stili CSS del pulsante non funzioneranno correttamente.
+
+**Best practice:**
+- Modifica il pulsante in modalità "Code" (non WYSIWYG)
+- Non copiare/incollare da altri editor che potrebbero alterare il markup
+- Verifica sempre il risultato nel frontend dopo le modifiche
 
 ---
 
