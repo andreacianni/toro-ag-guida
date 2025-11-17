@@ -148,12 +148,9 @@ Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noc
 
 **Nel frontend:**
 
-<table>
-<tr>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-IT.jpg" alt="Schede scaricabili nel frontend (IT)"></div></td>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-EN.jpg" alt="Schede scaricabili nel frontend (EN)"></div></td>
-</tr>
-</table>
+![Schede scaricabili nel frontend (IT)](assets/prodotti/prodotti-07-schede-front-IT.jpg)
+
+![Schede scaricabili nel frontend (EN)](assets/prodotti/prodotti-07-schede-front-EN.jpg)
 
 **Nel backend:**
 
@@ -169,12 +166,9 @@ Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi
 
 **Nel frontend:**
 
-<table>
-<tr>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-IT.jpg" alt="Documenti nel frontend (IT)"></div></td>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-EN.jpg" alt="Documenti nel frontend (EN)"></div></td>
-</tr>
-</table>
+![Documenti nel frontend (IT)](assets/prodotti/prodotti-08-documenti-front-IT.jpg)
+
+![Documenti nel frontend (EN)](assets/prodotti/prodotti-08-documenti-front-EN.jpg)
 
 **Nel backend:**
 
@@ -190,12 +184,9 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 
 **Nel frontend:**
 
-<table>
-<tr>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-IT.jpg" alt="Video nel frontend (IT)"></div></td>
-<td width="50%"><div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-EN.jpg" alt="Video nel frontend (EN)"></div></td>
-</tr>
-</table>
+![Video nel frontend (IT)](assets/prodotti/prodotti-09-video-front-IT.jpg)
+
+![Video nel frontend (EN)](assets/prodotti/prodotti-09-video-front-EN.jpg)
 
 **Nel backend:**
 
