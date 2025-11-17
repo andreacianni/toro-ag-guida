@@ -88,11 +88,17 @@ Usa l'editor principale con formattazione Rich Text per inserire la descrizione 
 
 ### Immagine in Evidenza
 
-**Nel frontend:**
+L'immagine in evidenza viene utilizzata in due contesti:
+- Nelle **griglie dei prodotti** (pagine archivio dei tipi di prodotto)
+- Nella **pagina del singolo prodotto**
 
-![Immagine principale del prodotto](assets/prodotti/prodotti-03a-immagine-front.jpg)
+**Nel frontend - Griglia prodotti:**
 
-![Immagine in evidenza nella descrizione](assets/prodotti/prodotti-03b-immagine-front.jpg)
+![Immagine in evidenza nella griglia dei prodotti](assets/prodotti/prodotti-03a-immagine-front.jpg)
+
+**Nel frontend - Pagina singolo prodotto:**
+
+![Immagine in evidenza nella pagina del prodotto](assets/prodotti/prodotti-03b-immagine-front.jpg)
 
 **Nel backend:**
 
