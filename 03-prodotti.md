@@ -34,7 +34,7 @@ Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a un
 **Dal sito pubblico:**
 Nella pagina del prodotto, se loggato come Admin, clicca su **"Modifica Prodotto"** per accedere alla maschera di modifica del prodotto.
 
-![modifica prodotto](assets/prodotti/prodotti-00-admin-4.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-4.jpg" alt="modifica prodotto"></div>
 
 ⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
 
@@ -42,19 +42,19 @@ Nella pagina del prodotto, se loggato come Admin, clicca su **"Modifica Prodotto
 
 Clicca su **"Prodotti"** nella barra laterale per visualizzare l'elenco di tutti i prodotti.
 
-![Elenco prodotti](assets/prodotti/prodotti-00-admin-1.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-1.jpg" alt="Elenco prodotti"></div>
 
 **Cercare un prodotto**
 
 Usa il campo di ricerca in alto a destra per trovare rapidamente un prodotto specifico.
 
-![Ricerca prodotto](assets/prodotti/prodotti-00-admin-1.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-1.jpg" alt="Ricerca prodotto"></div>
 
 **Modificare un prodotto**
 
 Clicca su **"Modifica"** sotto il nome del prodotto che vuoi modificare.
 
-![Modifica di un prodotto](assets/prodotti/prodotti-00-admin-2.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-2.jpg" alt="Modifica di un prodotto"></div>
 
 ---
 
@@ -80,7 +80,7 @@ Modifica il campo **"Titolo"** nella parte superiore dell'editor (funzionamento 
 
 **Nel frontend:**
 
-![Descrizione nel frontend](assets/prodotti/prodotti-02-descrizione-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-02-descrizione-front.jpg" alt="Descrizione nel frontend"></div>
 
 **Nel backend:**
 
@@ -96,15 +96,15 @@ L'immagine in evidenza viene utilizzata in due contesti:
 
 **Nel frontend - Pagina singolo prodotto:**
 
-![Immagine in evidenza nella griglia dei prodotti](assets/prodotti/prodotti-03a-immagine-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-03a-immagine-front.jpg" alt="Immagine in evidenza nella griglia dei prodotti"></div>
 
 **Nel frontend - Griglia prodotti:**
 
-![Immagine in evidenza nella pagina del prodotto](assets/prodotti/prodotti-03b-immagine-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-03b-immagine-front.jpg" alt="Immagine in evidenza nella pagina del prodotto"></div>
 
 **Nel backend:**
 
-![Campo Immagine in Evidenza](assets/prodotti/prodotti-03-immagine-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-03-immagine-back.jpg" alt="Campo Immagine in Evidenza"></div>
 
 Nella colonna destra, nella box **Immagine in evidenza** clicca l'immagine per aprire la galleria dei Media e sceglierne un'altra o su **"Rimuovi immagine in evidenza"**. Dimensione consigliata: 800 x 800px.
 
@@ -116,11 +116,11 @@ Nella colonna destra, nella box **Immagine in evidenza** clicca l'immagine per a
 
 Il Tipo di Prodotto determina la categoria principale e la struttura URL del prodotto.
 
-![Breadcrumb con tipo di prodotto](assets/prodotti/prodotti-04-tipo-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-04-tipo-front.jpg" alt="Breadcrumb con tipo di prodotto"></div>
 
 **Nel backend:**
 
-![Selezione Tipo di Prodotto](assets/prodotti/prodotti-04-tipo-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-04-tipo-back.jpg" alt="Selezione Tipo di Prodotto"></div>
 
 Nella colonna destra, seleziona il **"Tipo di Prodotto"** appropriato (es. "Manichetta e Ala Gocciolante", "Gocciolatori", "Tempus® Air Programmatori").
 
@@ -132,11 +132,11 @@ Nella colonna destra, seleziona il **"Tipo di Prodotto"** appropriato (es. "Mani
 
 **Nel frontend:**
 
-![Applicazioni con icone](assets/prodotti/prodotti-05-applicazioni-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-05-applicazioni-front.jpg" alt="Applicazioni con icone"></div>
 
 **Nel backend:**
 
-![Selezione Applicazioni](assets/prodotti/prodotti-05-applicazioni-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-05-applicazioni-back.jpg" alt="Selezione Applicazioni"></div>
 
 Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noccioleto, Ortaggi, Cipolla, Fragola, Vigneto).
 
@@ -148,11 +148,11 @@ Nella colonna destra, seleziona una o più **"Applicazioni"** (es. Agrumeti, Noc
 
 **Nel frontend:**
 
-![Schede scaricabili nel frontend](assets/prodotti/prodotti-07-schede-front-EN.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-front-EN.jpg" alt="Schede scaricabili nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Schede Prodotto](assets/prodotti/prodotti-07-schede-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-07-schede-back.jpg" alt="Campo Schede Prodotto"></div>
 
 Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare le schede esistenti.
 
@@ -164,11 +164,11 @@ Seleziona le schede tecniche dal campo **"Scheda Prodotto"**. Clicca **"Aggiungi
 
 **Nel frontend:**
 
-![Documenti nel frontend](assets/prodotti/prodotti-08-documenti-front-EN.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-front-EN.jpg" alt="Documenti nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Documenti Prodotto](assets/prodotti/prodotti-08-documenti-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-08-documenti-back.jpg" alt="Campo Documenti Prodotto"></div>
 
 Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare i documenti esistenti.
 
@@ -180,11 +180,11 @@ Seleziona brochure e documenti dal campo **"Documento Prodotto"**. Clicca **"Agg
 
 **Nel frontend:**
 
-![Video nel frontend](assets/prodotti/prodotti-09-video-front-EN.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-front-EN.jpg" alt="Video nel frontend"></div>
 
 **Nel backend:**
 
-![Campo Video Prodotto](assets/prodotti/prodotti-09-video-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-09-video-back.jpg" alt="Campo Video Prodotto"></div>
 
 Seleziona i video dimostrativi dal campo **"Video Prodotto"**. Clicca **"Aggiungi"** per cercare e selezionare i video esistenti.
 
@@ -200,11 +200,11 @@ Le seguenti funzionalità sono disponibili ma non utilizzate in tutti i prodotti
 
 **Nel frontend:**
 
-![Carousel/Galleria immagini](assets/prodotti/prodotti-06-galleria-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-06-galleria-front.jpg" alt="Carousel/Galleria immagini"></div>
 
 **Nel backend:**
 
-![Campo Galleria Prodotto](assets/prodotti/prodotti-06-galleria-back.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-06-galleria-back.jpg" alt="Campo Galleria Prodotto"></div>
 
 Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"** per aggiungere immagini aggiuntive al carousel.
 
@@ -218,15 +218,15 @@ Nella colonna destra, clicca **"Aggiungi file"** nel campo **"Galleria Prodotto"
 
 **Nel frontend:**
 
-![Pulsante Attivalo Ora](assets/prodotti/prodotti-10-Btn_AttivaloOra-front.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-10-Btn_AttivaloOra-front.jpg" alt="Pulsante Attivalo Ora"></div>
 
 **Nel backend:**
 
 Questo pulsante richiede particolare attenzione nella configurazione del codice HTML.
 
-![Modalità Code nel backend](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-Code.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-Code.jpg" alt="Modalità Code nel backend"></div>
 
-![Modalità WYSIWYG nel backend](assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-WSIWG.jpg)
+<div data-with-frame="true"><img src="assets/prodotti/prodotti-10-Btn_AttivaloOra-Back-WSIWG.jpg" alt="Modalità WYSIWYG nel backend"></div>
 
 ⚠️ **ATTENZIONE**: È fondamentale mantenere il codice HTML corretto durante la modifica. Se il codice viene alterato, gli stili CSS del pulsante non funzioneranno correttamente.
 
