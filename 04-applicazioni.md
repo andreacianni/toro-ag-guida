@@ -1,184 +1,161 @@
 # Gestire le Applicazioni
 
 Le **Applicazioni** (chiamate anche Colture) rappresentano gli ambiti di utilizzo dei tuoi prodotti (es. "Agrumeti", "Vigneto", "Mais", "Colture Protette").
+Questa tassonomia permette di organizzare i prodotti per tipo di coltivazione e creare una connessione bidirezionale: i prodotti mostrano le applicazioni per cui sono adatti, e le applicazioni mostrano i prodotti disponibili.
+
+---
 
 ## Dove si Vedono le Applicazioni
 
 **Sul sito pubblico:**
-- Pagina archivio: `https://www.toro-ag.it/applicazioni/`
-- Singola applicazione: `https://www.toro-ag.it/applicazioni/irrigazione-agrumeti/`
+- Pagina archivio: <a href="https://www.toro-ag.it/applicazioni/" target="_blank">https://www.toro-ag.it/applicazioni/</a>
+- Singola applicazione: <a href="https://www.toro-ag.it/applicazioni/irrigazione-fragola/" target="_blank">https://www.toro-ag.it/applicazioni/irrigazione-fragola/</a>
+
+**Accedere alla modifica delle applicazioni**
 
 **Nell'amministrazione:**
-- Menu → **Applicazioni**
+
+Clicca su **"Applicazioni"** nella barra laterale per visualizzare l'elenco di tutte le applicazioni.
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Modifica di un'applicazione"></div>
+
+**Cercare un'applicazione**
+
+Usa il campo di ricerca in alto a destra per trovare rapidamente un'applicazione specifica.
+
+**Modificare un'applicazione**
+
+Clicca su **"Modifica"** sotto il nome dell'applicazione che vuoi modificare.
 
 ---
 
-## Visualizzare Applicazioni Esistenti
+## Come i Campi Custom Appaiono sul Sito
 
-1. Nel menu laterale, clicca su **Applicazioni**
-2. Vedrai la lista di tutte le applicazioni esistenti
+Di seguito la corrispondenza tra gli elementi visualizzati nel frontend e i singoli campi da compilare nel backend.
 
-📷 *[Screenshot: Lista applicazioni nell'admin]*
+### Nome
 
-Ogni applicazione mostra:
-- **Nome** (es. "Agrumeti")
-- **Slug** (URL, es. "agrumeti")
-- **Descrizione** breve
-- **Numero prodotti** associati
+**Nel frontend - Pagina archivio:**
 
-💡 **Suggerimento**: Le applicazioni sono organizzate gerarchicamente - alcune possono avere sotto-categorie.
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-pagina.jpg" alt="Griglia applicazioni con nomi"></div>
+
+**Nel frontend - Pagina singola:**
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Titolo dell'applicazione"></div>
+
+**Nel backend:**
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Campo Nome"></div>
+
+Modifica il campo **"Nome"** nella parte superiore del form (es. "Fragola", "Agrumeti", "Vigneto").
+
+💡 Lo **Slug** viene generato automaticamente dal nome, ma puoi personalizzarlo se necessario.
 
 ---
 
-## Creare una Nuova Applicazione {#nuova-applicazione}
+### Descrizione
 
-### Passo 1: Andare alla Creazione
+La descrizione breve viene utilizzata nelle pagine di archivio e nelle anteprime.
 
-1. Vai su **Applicazioni**
-2. Clicca **"Aggiungi nuova Applicazione"** in alto
+**Nel frontend:**
 
-📷 *[Screenshot: Pulsante "Aggiungi nuova" evidenziato]*
+La descrizione appare nella parte superiore della pagina singola dell'applicazione.
 
-### Passo 2: Informazioni Base
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Descrizione nel frontend"></div>
 
-📷 *[Screenshot: Form creazione applicazione con campi evidenziati]*
+**Nel backend:**
 
-**Campi principali:**
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Editor descrizione"></div>
 
-**Nome**
-- Nome dell'applicazione (es. "Colture Protette")
-- Apparirà come titolo nelle pagine
+Usa l'editor **"Descrizione"** con formattazione Rich Text per inserire una descrizione breve ma esaustiva dell'applicazione.
 
-**Slug**
-- Si genera automaticamente dal nome
-- Puoi modificarlo se necessario
-- Usa solo lettere minuscole, numeri e trattini
+---
 
-**Descrizione**
-- Breve spiegazione dell'applicazione
-- Apparirà nelle pagine di archivio
+### Thumbnail Coltura
 
-**Applicazione Padre (Opzionale)**
-- Se questa è una sotto-categoria di un'applicazione esistente
-- Lascia vuoto se è una categoria principale
+L'immagine thumbnail è utilizzata nella griglia delle applicazioni (pagina archivio) e nelle liste.
 
-### Passo 3: Immagini
+**Nel frontend:**
 
-**Thumbnail Coltura**
-- Immagine piccola usata negli archivi e liste
-- Dimensione consigliata: 400x300 pixel
-- Campo **obbligatorio** ⚠️
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-pagina.jpg" alt="Thumbnail nella griglia applicazioni"></div>
 
-📷 *[Screenshot: Campo thumbnail evidenziato come obbligatorio]*
+**Nel backend:**
 
-**Immagine Coltura**
-- Immagine grande per la pagina singola
-- Dimensione consigliata: 1200x400 pixel
-- Campo opzionale ma consigliato
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Campo Thumbnail Coltura"></div>
 
-📷 *[Screenshot: Campo immagine hero]*
+Nel campo **"Thumbnail coltura"** clicca **"Aggiungi file"** per selezionare o caricare l'immagine.
 
-### Passo 4: Descrizione Dettagliata
+⚠️ **Importante**: Questo campo è **obbligatorio** (contrassegnato con asterisco rosso). L'applicazione non verrà visualizzata correttamente senza una thumbnail.
 
-Nel campo **"Descrizione coltura"** puoi aggiungere:
-- Informazioni dettagliate sull'applicazione
-- Caratteristiche specifiche
+💡 Dimensione consigliata: 400 x 300px.
+
+---
+
+### Immagine Coltura (Hero)
+
+L'immagine hero è la grande immagine visualizzata nella parte superiore della pagina singola dell'applicazione.
+
+**Nel frontend:**
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Immagine Hero"></div>
+
+**Nel backend:**
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Campo Immagine Coltura"></div>
+
+Nel campo **"Immagine coltura"** clicca per selezionare l'immagine hero.
+
+💡 Dimensione consigliata: 1200 x 400px.
+
+📌 **Nota**: Questo campo è opzionale ma fortemente consigliato per una migliore presentazione visiva.
+
+---
+
+### Descrizione Coltura
+
+La descrizione dettagliata fornisce informazioni complete sull'applicazione e appare nella pagina singola.
+
+**Nel frontend:**
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Descrizione dettagliata"></div>
+
+**Nel backend:**
+
+Usa l'editor Rich Text per inserire una descrizione completa con:
+- Caratteristiche specifiche della coltura
 - Consigli di utilizzo
-- Formattazione con l'editor ricco (grassetto, elenchi, ecc.)
+- Informazioni tecniche
+- Formattazione avanzata (grassetto, elenchi, link, etc.)
 
-📷 *[Screenshot: Editor WYSIWYG per descrizione]*
-
-### Passo 5: Brochure (Opzionale)
-
-Se hai brochure specifiche per questa applicazione:
-1. Campo **"Brochure coltura"**
-2. Seleziona dalle brochure esistenti
-3. Puoi associarne più di una
-
-💡 **Suggerimento**: Le brochure devono essere create prima nella sezione **Brochure Colture**.
-
-### Passo 6: Salvare
-
-1. Verifica che tutti i campi obbligatori siano compilati
-2. Clicca **"Aggiungi nuova Applicazione"**
-3. Conferma che la creazione sia andata a buon fine
-
-✅ **Risultato**: L'applicazione sarà visibile su `https://www.toro-ag.it/applicazioni/`
+💡 La descrizione dettagliata è diversa dalla descrizione breve - qui puoi essere più esaustivo.
 
 ---
 
-## Modificare un'Applicazione Esistente {#modificare-applicazione}
+### Brochure Coltura
 
-### Trovare l'Applicazione
+Associa brochure e documenti specifici per questa applicazione.
 
-1. Vai su **Applicazioni**
-2. Cerca nella lista l'applicazione da modificare
-3. Clicca **"Modifica"** sotto il nome
+**Nel frontend:**
 
-📷 *[Screenshot: Lista con link modifica evidenziato]*
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Brochure nella sidebar"></div>
 
-### Modificare le Informazioni
+Le brochure appaiono nella sidebar della pagina singola dell'applicazione, pronte per il download.
 
-Puoi modificare tutti i campi:
-- **Testi e descrizioni**
-- **Immagini** (thumbnail e immagine principale)
-- **Brochure associate**
-- **Categoria padre** (per riorganizzare la gerarchia)
+**Nel backend:**
 
-### Cambiare la Gerarchia
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Campo Brochure Coltura"></div>
 
-Per spostare un'applicazione sotto un'altra:
-1. Campo **"Applicazione Padre"**
-2. Seleziona la categoria principale
-3. Salva le modifiche
+Nel campo **"Brochure coltura"** cerca e seleziona le brochure esistenti. Puoi associarne più di una.
 
-⚠️ **Attenzione**: Cambiare la gerarchia può modificare l'URL dell'applicazione.
+💡 Le brochure devono essere create prima nella sezione **"Tutte le Brochure"** → **"Brochure Colture"**.
 
-### Salvare le Modifiche
-
-1. Modifica i campi necessari
-2. Clicca **"Aggiorna"** in basso
-3. Verifica il risultato sul sito
+💡 Clicca **"Aggiungi"** per aggiungere nuove brochure alla selezione.
 
 ---
 
-## Associare Brochure e Documenti {#descrizioni-brochure}
+### Applicazione Genitore
 
-### Brochure Esistenti
-
-Per collegare brochure già presenti nel sistema:
-1. Campo **"Brochure coltura"**
-2. Seleziona dalla lista dropdown
-3. Puoi selezionarne più di una tenendo premuto Ctrl
-
-### Creare Nuove Brochure
-
-Se la brochure che ti serve non esiste:
-1. Clicca **"+ Aggiungi nuovo"** accanto al campo
-2. Si aprirà la creazione brochure in una nuova finestra
-3. Compila e salva la brochure
-4. Torna alla tua applicazione e selezionala
-
-📷 *[Screenshot: Pulsante "Aggiungi nuovo" nel campo brochure]*
-
-### Gestire le Descrizioni
-
-**Descrizione Breve**
-- Usata negli archivi e anteprime
-- Mantienila concisa (1-2 righe)
-
-**Descrizione Dettagliata**
-- Usata nella pagina singola dell'applicazione
-- Puoi essere più descrittivo
-- Usa l'editor per formattare il testo
-
----
-
-## Organizzazione Gerarchica
-
-### Creare Sotto-categorie
-
-Per organizzare meglio le applicazioni:
+Per creare una struttura gerarchica, puoi definire applicazioni "padre" e "figlie".
 
 **Esempio di gerarchia:**
 ```
@@ -192,64 +169,53 @@ Ortaggi (principale)
 └── Fragola
 ```
 
-**Come creare:**
-1. Crea prima l'applicazione principale (es. "Frutteti")
-2. Crea le sotto-applicazioni
-3. Nel campo "Applicazione Padre" seleziona quella principale
+**Nel backend:**
 
-### Riorganizzare Esistenti
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Campo Applicazione Genitore"></div>
 
-Per spostare applicazioni esistenti:
-1. Modifica l'applicazione da spostare
-2. Cambia il campo "Applicazione Padre"
-3. Salva le modifiche
+Nel campo **"Applicazione genitore"** seleziona l'applicazione principale se questa è una sotto-categoria.
 
-📷 *[Screenshot: Selezione applicazione padre]*
+💡 Lascia su "Nessuna" se questa è una categoria principale.
+
+⚠️ **Attenzione**: Cambiare la gerarchia può modificare l'URL dell'applicazione.
 
 ---
 
-## Collegamento con Prodotti
+### Prodotti Associati
 
-### Associazione Automatica
+I prodotti vengono associati automaticamente quando li crei o modifichi.
 
-Quando associ un'applicazione a un prodotto:
-- Il prodotto apparirà nella pagina dell'applicazione
-- L'applicazione apparirà nella pagina del prodotto
-- Si crea un collegamento bidirezionale
+**Nel frontend:**
 
-### Verificare i Collegamenti
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-singola.jpg" alt="Prodotti organizzati per tipo"></div>
 
-Per vedere quali prodotti sono associati:
-1. Vai alla lista delle applicazioni
-2. Guarda la colonna **"Conteggio"** per vedere quanti prodotti
-3. Clicca sul numero per vedere l'elenco dei prodotti
+Nella pagina dell'applicazione, i prodotti sono automaticamente organizzati per tipo (Manichetta e Ala Gocciolante, Gocciolatori, Filtri, etc.).
 
-📷 *[Screenshot: Colonna conteggio nella lista applicazioni]*
+**Associazione bidirezionale:**
+- Quando associ un'applicazione a un prodotto, il prodotto appare automaticamente nella pagina dell'applicazione
+- L'applicazione appare nella pagina del prodotto con la relativa icona
+
+💡 Per associare prodotti a un'applicazione, vai su **Prodotti** → **Modifica prodotto** → seleziona le applicazioni nel campo **"Applicazioni"**.
+
+💡 Per vedere quanti prodotti sono associati, guarda la colonna **"Conteggio"** nella lista delle applicazioni.
 
 ---
 
-## Problemi Comuni
+## Note Importanti
 
-**L'applicazione non appare sul sito**
-- Verifica che sia stata salvata correttamente
-- Controlla che la thumbnail sia stata caricata (campo obbligatorio)
+**Campo obbligatorio:**
+- La **Thumbnail Coltura** è l'unico campo obbligatorio contrassegnato con asterisco rosso
+- Senza thumbnail, l'applicazione non verrà visualizzata correttamente nella griglia
 
-**L'immagine thumbnail non si vede**
-- Il campo thumbnail è obbligatorio
-- Verifica che l'immagine sia stata caricata correttamente
-- Prova con un'immagine di dimensioni diverse
+**Organizzazione gerarchica:**
+- Usa il campo "Applicazione genitore" per creare sotto-categorie
+- La gerarchia aiuta a organizzare meglio le applicazioni correlate
+- Evita cicli (A padre di B, B padre di A)
 
-**I prodotti non appaiono nell'applicazione**
+**Collegamento con prodotti:**
 - I prodotti devono essere associati dall'editor del singolo prodotto
-- Vai su **Prodotti** → **Modifica prodotto** → seleziona le applicazioni
-
-**La gerarchia non funziona**
-- Verifica che l'applicazione padre esista
-- Controlla che non ci siano cicli (A padre di B, B padre di A)
-
-**Le brochure non si collegano**
-- Le brochure devono esistere nella sezione **Brochure Colture**
-- Verifica che siano pubblicate
+- Il collegamento è bidirezionale: modifica in un punto, appare in entrambi
+- I prodotti sono automaticamente raggruppati per tipo nella pagina dell'applicazione
 
 ---
 

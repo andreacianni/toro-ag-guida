@@ -3,24 +3,6 @@
 I **Prodotti** sono i singoli elementi del tuo catalogo (es. "Aqua-Traxx® FlowControl™", "Tempus® Air RS4").
 Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a una o più Applicazioni (colture).
 
-## In questa pagina
-
-- [Gestire i Prodotti](#gestire-i-prodotti)
-  - [In questa pagina](#in-questa-pagina)
-  - [Dove si Vedono i Prodotti](#dove-si-vedono-i-prodotti)
-  - [Come i Campi Custom Appaiono sul Sito](#come-i-campi-custom-appaiono-sul-sito)
-    - [Titolo](#titolo)
-    - [Descrizione](#descrizione)
-    - [Immagine in Evidenza](#immagine-in-evidenza)
-    - [Tipo di Prodotto](#tipo-di-prodotto)
-    - [Applicazioni](#applicazioni)
-    - [Schede Prodotto](#schede-prodotto)
-    - [Documenti Prodotto](#documenti-prodotto)
-    - [Video Prodotto](#video-prodotto)
-  - [Funzionalità Opzionali](#funzionalità-opzionali)
-    - [Galleria Prodotto](#galleria-prodotto)
-    - [Pulsante "Attivalo Ora"](#pulsante-attivalo-ora)
-
 ---
 
 ## Dove si Vedono i Prodotti

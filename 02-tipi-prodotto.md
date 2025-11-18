@@ -1,6 +1,8 @@
 # Gestire i Tipi di Prodotto
 
-I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi prodotti in termini specifici (es. "Manichetta e Ala Gocciolante", "Tempus® Air Programmatori", "Gocciolatori"). Nel frontend, questa tassonomia viene visualizzata come **"Prodotti"**.
+I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi prodotti in categorie specifiche (es. "Manichetta e Ala Gocciolante", "Tempus® Air Programmatori", "Gocciolatori"). Nel frontend, questa tassonomia viene visualizzata come **"Prodotti"**.
+
+---
 
 ## Dove si Vedono i Tipi di Prodotto
 
@@ -8,19 +10,23 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 - Pagina archivio: <a href="https://www.toro-ag.it/prodotti/" target="_blank">https://www.toro-ag.it/prodotti/</a>
 - Singola categoria: <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/" target="_blank">https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/</a>
 
+**Accedere alla modifica dei tipi di prodotto**
+
 **Nell'amministrazione:**
 
-**Passo 1: Accedere alla tassonomia**
+Clicca su **"Tipo di Prodotti"** nella barra laterale per visualizzare l'elenco di tutti i tipi.
 
-Clicca su **"Tipo di Prodotti"** nella barra laterale.
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg" alt="Elenco tipi di prodotto"></div>
 
-<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg" alt="Accesso alla tassonomia"></div>
+**Cercare un tipo di prodotto**
 
-**Passo 2: Modificare un termine**
+Usa il campo di ricerca per trovare rapidamente un tipo specifico.
 
-Clicca su **"Modifica"** sotto il nome del termine che vuoi modificare.
+**Modificare un tipo di prodotto**
 
-<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-2.jpg" alt="Modifica di un termine"></div>
+Clicca su **"Modifica"** sotto il nome del tipo che vuoi modificare.
+
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-2.jpg" alt="Modifica di un tipo di prodotto"></div>
 
 ---
 
