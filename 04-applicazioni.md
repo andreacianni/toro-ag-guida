@@ -57,7 +57,7 @@ Modifica il campo **"Nome"** nella parte superiore del form (es. "Fragola", "Agr
 
 ### Descrizione
 
-La descrizione breve viene utilizzata nelle pagine di archivio e nelle anteprime.
+La descrizione viene utilizzata nelle pagine di archivio e nelle anteprime.
 
 **Nel frontend:**
 
@@ -85,9 +85,9 @@ L'immagine thumbnail è utilizzata nella griglia delle applicazioni (pagina arch
 
 Nel campo **"Thumbnail coltura"** clicca **"Aggiungi file"** per selezionare o caricare l'immagine.
 
-⚠️ **Importante**: Questo campo è **obbligatorio** (contrassegnato con asterisco rosso). L'applicazione non verrà visualizzata correttamente senza una thumbnail.
+⚠️ **Importante**: Questo campo è **obbligatorio** (contrassegnato con asterisco rosso). L'applicazione non verrà visualizzata senza una thumbnail.
 
-💡 Dimensione consigliata: 400 x 300px.
+💡 Dimensione consigliata: 600 per 450 pixel.
 
 ---
 
@@ -105,31 +105,9 @@ L'immagine hero è la grande immagine visualizzata nella parte superiore della p
 
 Nel campo **"Immagine coltura"** clicca per selezionare l'immagine hero.
 
-💡 Dimensione consigliata: 1200 x 400px.
+💡 Dimensione consigliata: 2560 per 300 pixel.
 
 📌 **Nota**: Questo campo è opzionale ma fortemente consigliato per una migliore presentazione visiva.
-
----
-
-### Descrizione Coltura
-
-La descrizione dettagliata fornisce informazioni complete sull'applicazione e appare nella pagina singola.
-
-**Nel frontend:**
-
-<div data-with-frame="true"><img src="assets/applicazioni/applicazioni-04-descrizione-dettagliata-front.jpg" alt="Descrizione dettagliata"></div>
-
-**Nel backend:**
-
-<div data-with-frame="true"><img src="assets/applicazioni/applicazioni-04-descrizione-dettagliata-back.jpg" alt="Editor descrizione dettagliata"></div>
-
-Usa l'editor Rich Text per inserire una descrizione completa con:
-- Caratteristiche specifiche della coltura
-- Consigli di utilizzo
-- Informazioni tecniche
-- Formattazione avanzata (grassetto, elenchi, link, etc.)
-
-💡 La descrizione dettagliata è diversa dalla descrizione breve - qui puoi essere più esaustivo.
 
 ---
 
@@ -155,43 +133,11 @@ Nel campo **"Brochure coltura"** cerca e seleziona le brochure esistenti. Puoi a
 
 ---
 
-### Applicazione Genitore
-
-Per creare una struttura gerarchica, puoi definire applicazioni "padre" e "figlie".
-
-**Esempio di gerarchia:**
-```
-Frutteti (principale)
-├── Agrumeti
-├── Noccioleto
-└── Oliveto
-
-Ortaggi (principale)
-├── Cipolla
-└── Fragola
-```
-
-**Nel backend:**
-
-<div data-with-frame="true"><img src="assets/applicazioni/applicazioni-06-genitore-back.jpg" alt="Campo Applicazione Genitore"></div>
-
-Nel campo **"Applicazione genitore"** seleziona l'applicazione principale se questa è una sotto-categoria.
-
-💡 Lascia su "Nessuna" se questa è una categoria principale.
-
-⚠️ **Attenzione**: Cambiare la gerarchia può modificare l'URL dell'applicazione.
-
----
-
 ### Prodotti Associati
-
-I prodotti vengono associati automaticamente quando li crei o modifichi.
-
-**Nel frontend:**
 
 <div data-with-frame="true"><img src="assets/applicazioni/applicazioni-07-prodotti-front.jpg" alt="Prodotti organizzati per tipo"></div>
 
-Nella pagina dell'applicazione, i prodotti sono automaticamente organizzati per tipo (Manichetta e Ala Gocciolante, Gocciolatori, Filtri, etc.).
+I prodotti a cui è associtata l'applicazione vengono visulalizzati nella pagina organizzati per "Tipo di Prodotto" (Manichetta e Ala Gocciolante, Gocciolatori, Filtri, etc.).
 
 **Associazione bidirezionale:**
 - Quando associ un'applicazione a un prodotto, il prodotto appare automaticamente nella pagina dell'applicazione
@@ -208,11 +154,6 @@ Nella pagina dell'applicazione, i prodotti sono automaticamente organizzati per 
 **Campo obbligatorio:**
 - La **Thumbnail Coltura** è l'unico campo obbligatorio contrassegnato con asterisco rosso
 - Senza thumbnail, l'applicazione non verrà visualizzata correttamente nella griglia
-
-**Organizzazione gerarchica:**
-- Usa il campo "Applicazione genitore" per creare sotto-categorie
-- La gerarchia aiuta a organizzare meglio le applicazioni correlate
-- Evita cicli (A padre di B, B padre di A)
 
 **Collegamento con prodotti:**
 - I prodotti devono essere associati dall'editor del singolo prodotto
