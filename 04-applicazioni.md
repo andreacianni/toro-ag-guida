@@ -11,26 +11,27 @@ Questa tassonomia permette di organizzare i prodotti per tipo di coltivazione e 
 - Pagina archivio: <a href="https://www.toro-ag.it/applicazioni/" target="_blank">https://www.toro-ag.it/applicazioni/</a>
 - Singola applicazione: <a href="https://www.toro-ag.it/applicazioni/irrigazione-fragola/" target="_blank">https://www.toro-ag.it/applicazioni/irrigazione-fragola/</a>
 
-**Accedere alla modifica delle applicazioni**
+## Accedere alla Modifica delle Applicazioni
 
-**Dal sito pubblico:**
+### Dal Sito Pubblico
+
 Nella pagina dell'applicazione, se loggato come Admin, clicca su **"Modifica Applicazione"** per accedere alla maschera di modifica.
 
 <div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00b-admin.jpg" alt="modifica applicazione"></div>
 
 ⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
 
-**Nell'amministrazione:**
+### Nell'Amministrazione
 
 Clicca su **"Applicazioni"** nella barra laterale per visualizzare l'elenco di tutte le applicazioni.
 
 <div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00-admin.jpg" alt="Elenco applicazioni"></div>
 
-**Cercare un'applicazione**
+#### Cercare un'Applicazione
 
 Usa il campo di ricerca in alto a destra per trovare rapidamente un'applicazione specifica.
 
-**Modificare un'applicazione**
+#### Modificare un'Applicazione
 
 Clicca su **"Modifica"** sotto il nome dell'applicazione che vuoi modificare.
 

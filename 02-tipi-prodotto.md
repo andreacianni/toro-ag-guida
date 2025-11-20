@@ -10,26 +10,27 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 - Pagina archivio: <a href="https://www.toro-ag.it/prodotti/" target="_blank">https://www.toro-ag.it/prodotti/</a>
 - Singola categoria: <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/" target="_blank">https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/</a>
 
-**Accedere alla modifica dei tipi di prodotto**
+## Accedere alla Modifica dei Tipi di Prodotto
 
-**Dal sito pubblico:**
+### Dal Sito Pubblico
+
 Nella pagina del tipo di prodotto, se loggato come Admin, clicca su **"Modifica Tipo di Prodotto"** per accedere alla maschera di modifica.
 
 <div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-0.jpg" alt="modifica tipo di prodotto"></div>
 
 ⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
 
-**Nell'amministrazione:**
+### Nell'Amministrazione
 
 Clicca su **"Tipo di Prodotti"** nella barra laterale per visualizzare l'elenco di tutti i tipi.
 
 <div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-1.jpg" alt="Elenco tipi di prodotto"></div>
 
-**Cercare un tipo di prodotto**
+#### Cercare un Tipo di Prodotto
 
 Usa il campo di ricerca per trovare rapidamente un tipo specifico.
 
-**Modificare un tipo di prodotto**
+#### Modificare un Tipo di Prodotto
 
 Clicca su **"Modifica"** sotto il nome del tipo che vuoi modificare.
 

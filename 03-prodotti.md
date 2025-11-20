@@ -11,28 +11,29 @@ Ogni prodotto viene assegnato a un Tipo di Prodotto e può essere associato a un
 - Nelle pagine dei tipi: <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/" target="_blank">https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/</a>
 - Pagina prodotto singolo: <a href="https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-flowcontrol/" target="_blank">https://www.toro-ag.it/prodotti/manichetta-e-ala-gocciolante/aqua-traxx-flowcontrol/</a>
 
-**Accedere alla modifica dei prodotti**
+## Accedere alla Modifica dei Prodotti
 
-**Dal sito pubblico:**
+### Dal Sito Pubblico
+
 Nella pagina del prodotto, se loggato come Admin, clicca su **"Modifica Prodotto"** per accedere alla maschera di modifica del prodotto.
 
 <div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-4.jpg" alt="modifica prodotto"></div>
 
 ⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
 
-**Nell'amministrazione:**
+### Nell'Amministrazione
 
 Clicca su **"Prodotti"** nella barra laterale per visualizzare l'elenco di tutti i prodotti.
 
 <div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-1.jpg" alt="Elenco prodotti"></div>
 
-**Cercare un prodotto**
+#### Cercare un Prodotto
 
 Usa il campo di ricerca in alto a destra per trovare rapidamente un prodotto specifico.
 
 <div data-with-frame="true"><img src="assets/prodotti/prodotti-00-admin-1.jpg" alt="Ricerca prodotto"></div>
 
-**Modificare un prodotto**
+#### Modificare un Prodotto
 
 Clicca su **"Modifica"** sotto il nome del prodotto che vuoi modificare.
 
