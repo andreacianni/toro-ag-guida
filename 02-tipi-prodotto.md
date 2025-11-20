@@ -12,6 +12,13 @@ I **Tipi di Prodotto** rappresentano una tassonomia custom che organizza i tuoi 
 
 **Accedere alla modifica dei tipi di prodotto**
 
+**Dal sito pubblico:**
+Nella pagina del tipo di prodotto, se loggato come Admin, clicca su **"Modifica Tipo di Prodotto"** per accedere alla maschera di modifica.
+
+<div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-00-admin-0.jpg" alt="modifica tipo di prodotto"></div>
+
+⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
+
 **Nell'amministrazione:**
 
 Clicca su **"Tipo di Prodotti"** nella barra laterale per visualizzare l'elenco di tutti i tipi.
@@ -145,3 +152,7 @@ Seleziona i video dal campo **"Video"**.
 <div data-with-frame="true"><img src="assets/tipi-prodotto/tipi-prodotto-08-Prodotti-front.jpg" alt="Griglia prodotti"></div>
 
 I prodotti vengono associati automaticamente quando li crei o modifichi. Vedi [Gestire i Prodotti](03-prodotti.md).
+
+---
+
+**Prossimo**: [Gestire i Prodotti →](03-prodotti.md)
