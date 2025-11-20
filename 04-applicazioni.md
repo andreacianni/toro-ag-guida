@@ -13,6 +13,13 @@ Questa tassonomia permette di organizzare i prodotti per tipo di coltivazione e 
 
 **Accedere alla modifica delle applicazioni**
 
+**Dal sito pubblico:**
+Nella pagina dell'applicazione, se loggato come Admin, clicca su **"Modifica Applicazione"** per accedere alla maschera di modifica.
+
+<div data-with-frame="true"><img src="assets/applicazioni/Applicazioni-00b-admin.jpg" alt="modifica applicazione"></div>
+
+⚠️ **Attenzione**: Non abilitare il Visual Builder di Divi durante la modifica, altrimenti potresti compromettere la formattazione della pagina.
+
 **Nell'amministrazione:**
 
 Clicca su **"Applicazioni"** nella barra laterale per visualizzare l'elenco di tutte le applicazioni.
