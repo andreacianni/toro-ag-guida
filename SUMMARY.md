@@ -2,8 +2,8 @@
 
 * [Introduzione](README.md)
 
-## Primi Passi
-* [Dashboard e Panoramica](01-introduzione.md)
+## LAYOUT, TEMPLATE & C.
+* [DIVI Layout System](divi-layout-system.md)
 
 ## Gestione Contenuti
 * [Tipi di Prodotto](02-tipi-prodotto.md)
