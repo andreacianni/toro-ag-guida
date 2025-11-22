@@ -38,6 +38,15 @@
   * [Documenti Plus](05-allegati-multilingua.md#documenti-plus)
   * [Video](05-allegati-multilingua.md#video)
 
+## Marketing & Comunicazione
+* [Newsletter](newsletter.md)
+  * [Accesso alla sezione Newsletter](newsletter.md#accesso-alla-sezione-newsletter)
+  * [Creare una nuova Newsletter](newsletter.md#creare-una-nuova-newsletter)
+  * [Modificare i contenuti](newsletter.md#modificare-i-contenuti)
+  * [Testare la Newsletter](newsletter.md#testare-la-newsletter)
+  * [Scegliere i destinatari](newsletter.md#scegliere-i-destinatari)
+  * [Duplicare una Newsletter](newsletter.md#duplicare-una-newsletter)
+
 ## Collegamenti e Relazioni
 * [Come collegare gli elementi](06-associazioni.md)
   * [Prodotti e Tipi di Prodotto](06-associazioni.md#prodotti-tipi)
